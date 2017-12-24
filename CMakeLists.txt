@@ -10,9 +10,13 @@ function(apply_abilities)
 endfunction(apply_abilities)
 
 
+file(GLOB available_abilities RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" ./abilities/*.ab)
 
-file(GLOB available_abilities
-        abilities/*ab)
+foreach(fileName ${available_abilities})
+    MESSAGE(STATUS "(!) Found ability: ${fileName}")
+endforeach()
+
+set(outfiles)
 
 include_directories(abilities)
 
@@ -22,7 +26,7 @@ add_dependencies(product abilities)
 add_custom_command(TARGET product
         COMMAND
             echo "============Building target bash command..."
-        DEPENDS
+        DEPENDS ${available_abilities}
         COMMENT "Custom bla")
 
 add_custom_command(TARGET abilities
