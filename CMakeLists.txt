@@ -5,6 +5,14 @@ project("product")
 add_custom_target(product)
 add_custom_target(abilities)
 
+add_custom_target(cart_in_cell1)
+add_custom_target(cart_in_warehouse)
+add_custom_target(cart_in_shipment)
+
+add_custom_target(transport_ability
+        DEPENDS cart_in_cell1 cart_in_warehouse cart_in_shipment)
+
+
 function(apply_abilities)
     message(STATUS "Hello")
 endfunction(apply_abilities)
@@ -20,7 +28,7 @@ set(outfiles)
 
 include_directories(abilities)
 
-add_dependencies(product abilities)
+add_dependencies(product abilities transport_ability)
 
 
 add_custom_command(TARGET product
@@ -29,6 +37,11 @@ add_custom_command(TARGET product
         DEPENDS ${available_abilities}
         COMMENT "Custom bla")
 
+add_custom_command(TARGET cart_in_cell1
+        COMMAND
+        echo "============cart_in_cell1..."
+        COMMENT "cart_in_cell1")
+
 add_custom_command(TARGET abilities
         COMMAND
         echo "============Gathering abilities bash command..."
@@ -36,3 +49,8 @@ add_custom_command(TARGET abilities
 
 
 apply_abilities()
+
+
+#===========
+
+
