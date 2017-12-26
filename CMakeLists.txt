@@ -18,7 +18,8 @@ add_custom_target(load_parts)
 
 add_custom_command(TARGET load_parts
         COMMAND echo "[PEOPLE] Load Cart" >>plan
-        COMMENT "[JOIN] CART EXTR1 EXTR2")
+        COMMAND echo "[EVENT] PARTS ARE LOADED" >>plan
+        )
 
 
 add_custom_target(unload_extr1)
@@ -55,6 +56,7 @@ add_custom_command(TARGET ship_chassis
 #=========
 
 add_dependencies(product build_chassis ship_chassis)
+
 add_dependencies(unload_extr1 agv.cart_in_cell kin.robogripper)
 add_dependencies(unload_extr2 agv.cart_in_cell kin.robogripper)
 
@@ -62,10 +64,9 @@ add_dependencies(agv.cart_in_cell load_parts)
 add_dependencies(load_parts agv.cart_in_warehouse)
 
 add_dependencies(parts_on_table unload_extr1 unload_extr2)
-add_dependencies(build_chassis parts_on_table)
+add_dependencies(build_chassis parts_on_table kin.joinparts)
+add_dependencies(kin.joinparts parts_on_table)
+
 add_dependencies(ship_chassis agv.cart_in_shipment)
 add_dependencies(agv.cart_in_shipment build_chassis)
-
-
-
 
