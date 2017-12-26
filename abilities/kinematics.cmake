@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
+include(abilities/cv.cmake)
+
 #=========== Kinematics abilities ====
 
 #equipment
@@ -38,7 +40,7 @@ add_custom_command(TARGET kin.joinparts
         COMMAND echo "[KIN.JOIN] MANIPULATOR" >>plan
         )
 
-add_dependencies(kin.joinparts kin.manipulator)
+add_dependencies(kin.joinparts kin.manipulator cv.localize)
 
 
 
