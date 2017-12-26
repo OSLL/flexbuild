@@ -65,7 +65,8 @@ add_dependencies(load_parts agv.cart_in_warehouse)
 
 add_dependencies(parts_on_table unload_extr1 unload_extr2)
 add_dependencies(build_chassis parts_on_table kin.joinparts)
-add_dependencies(kin.joinparts parts_on_table)
+add_dependencies(kin.joinparts kin.manipulator_released)
+add_dependencies(kin.manipulator_released parts_on_table)
 
 add_dependencies(ship_chassis agv.cart_in_shipment)
 add_dependencies(agv.cart_in_shipment build_chassis)
