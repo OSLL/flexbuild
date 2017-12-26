@@ -65,7 +65,7 @@ add_custom_command(TARGET loading
 add_custom_target(robogripper)
 
 add_custom_command(TARGET robogripper
-        COMMAND echo "[JOIN] ROB GRIP"
+        COMMAND echo "[JOIN] ROB GRIP" >>plan
         COMMENT "[JOIN] ROB GRIP")
 
 add_custom_target(unload_extr1)
@@ -93,7 +93,12 @@ add_custom_command(TARGET parts_on_table
 #=========
 
 add_dependencies(product unload_extr1 unload_extr2)
-add_dependencies(unload_extr1 cart_in_cell)
-add_dependencies(unload_extr2 cart_in_cell)
+add_dependencies(unload_extr1 cart_in_cell robogripper)
+add_dependencies(unload_extr2 cart_in_cell robogripper)
+
+add_dependencies(cart_in_cell loading)
+add_dependencies(loading cart_in_warehouse)
+
+
 
 
