@@ -43,7 +43,7 @@ add_custom_command(TARGET parts_on_table
 add_custom_target(build_chassis)
 
 add_custom_command(TARGET build_chassis
-        COMMAND echo "[KIN.JOIN] EXTR1,EXTR2" >>plan
+        #COMMAND echo "[JOIN] EXTR1,EXTR2" >>plan
         COMMAND echo "[EVENT] CHASSIS IS READY" >>plan
         )
 
