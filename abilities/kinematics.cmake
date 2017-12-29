@@ -40,8 +40,8 @@ add_custom_command(TARGET kin.joinparts
         COMMAND echo "[KIN.JOIN] JOIN PARTS" >>plan
         )
 
-add_dependencies(kin.joinparts kin.manipulator)
-
+#add_dependencies(kin.joinparts kin.manipulator)
+add_dependencies(kin.joinparts kin.manipulator cv.localize)
 
 
 
