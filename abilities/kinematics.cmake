@@ -28,6 +28,7 @@ add_custom_command(TARGET kin.manipulator
 
 
 add_custom_target(kin.robogripper)
+add_dependencies(kin.robogripper
         kin.gripper
         kin.manipulator)
 
@@ -40,5 +41,8 @@ add_custom_command(TARGET kin.robogripper
 add_custom_target(kin.joinparts)
 
 add_custom_command(TARGET kin.joinparts
+        COMMAND echo "[KIN.JOIN] JOIN PARTS" >>plan
         )
 
+#add_dependencies(kin.joinparts kin.manipulator)
+add_dependencies(kin.joinparts kin.manipulator cv.localize)
