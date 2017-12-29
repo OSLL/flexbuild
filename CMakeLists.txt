@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 include(abilities/agv.cmake)
 include(abilities/kinematics.cmake)
-#include(operations/build_battarey.cmake)
+include(operations/build_battery.cmake)
 
 
 project("product")
@@ -31,7 +31,7 @@ add_custom_command(TARGET unload_extr1
 add_custom_target(unload_extr2)
 
 add_custom_command(TARGET unload_extr2
-        COMMAND echo "[KIN.MOVE] EXTR2,TABLE" >>plan
+        COMMAND echo "[KIN.MOVE] EXTR2,TABLE">>plan
         )
 
 add_custom_target(parts_on_table)
@@ -43,7 +43,7 @@ add_custom_command(TARGET parts_on_table
 add_custom_target(build_chassis)
 
 add_custom_command(TARGET build_chassis
-        COMMAND echo "[KIN.JOIN] EXTR1,EXTR2" >>plan
+        #COMMAND echo "[JOIN] EXTR1,EXTR2" >>plan
         COMMAND echo "[EVENT] CHASSIS IS READY" >>plan
         )
 
@@ -57,7 +57,8 @@ add_custom_command(TARGET ship_chassis
 
 #=========
 
-add_dependencies(product build_chassis build_battarey ship_chassis)
+add_dependencies(product build_chassis ship_chassis)
+add_dependencies(product front_central_structure)
 
 add_dependencies(unload_extr1 agv.cart_in_cell kin.robogripper)
 add_dependencies(unload_extr2 agv.cart_in_cell kin.robogripper)
@@ -72,4 +73,3 @@ add_dependencies(kin.manipulator_released parts_on_table)
 
 add_dependencies(ship_chassis agv.cart_in_shipment)
 add_dependencies(agv.cart_in_shipment build_chassis)
-
