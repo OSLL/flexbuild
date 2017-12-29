@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="product" targetName="agv.cart_in_cell" />
+      <config projectName="product" targetName="build_chassis" />
+      <config projectName="product" targetName="agv.cart_in_shipment" />
+      <config projectName="product" targetName="agv.cart_in_warehouse" />
+      <config projectName="product" targetName="kin.manipulator" />
+      <config projectName="product" targetName="kin.robogripper" />
+      <config projectName="product" targetName="parts_on_table" />
+      <config projectName="product" targetName="cv.camera1" />
+      <config projectName="product" targetName="cv.camera2" />
+      <config projectName="product" targetName="load_parts" />
+      <config projectName="product" targetName="build_battarey" />
+      <config projectName="product" targetName="cv.camera3" />
+      <config projectName="product" targetName="kin.gripper" />
+      <config projectName="product" targetName="cv.calibration" />
+      <config projectName="product" targetName="kin.manipulator_released" />
+      <config projectName="product" targetName="product" />
+      <config projectName="product" targetName="cv.localize" />
+      <config projectName="product" targetName="ship_chassis" />
+      <config projectName="product" targetName="unload_extr2" />
+      <config projectName="product" targetName="kin.joinparts" />
+      <config projectName="product" targetName="unload_extr1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Default" GENERATION_DIR="." />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75503262-2cb4-4e5f-93c0-994c61ecf5c7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/flexbuild.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/abilities/kinematics.cmake" afterPath="$PROJECT_DIR$/abilities/kinematics.cmake" />
+    </list>
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="build_battarey.cmake" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/operations/build_battarey.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="260" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="937" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="product" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="flexbuild" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="flexbuild" type="462c0819:PsiDirectoryNode" />
+              <item name="operations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="flexbuild" type="462c0819:PsiDirectoryNode" />
+              <item name="parts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.agv.cart_in_cell">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Default" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="agv.cart_in_cell" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="agv.cart_in_cell" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="agv.cart_in_shipment" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="agv.cart_in_shipment" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="agv.cart_in_warehouse" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="agv.cart_in_warehouse" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="build_battarey" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="build_battarey" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="build_chassis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="build_chassis" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="cv.calibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="cv.calibration" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="cv.camera1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="cv.camera1" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="cv.camera2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="cv.camera2" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="cv.camera3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="cv.camera3" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="cv.localize" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="cv.localize" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="kin.gripper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="kin.gripper" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="kin.joinparts" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="kin.joinparts" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="kin.manipulator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="kin.manipulator" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="kin.manipulator_released" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="kin.manipulator_released" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="kin.robogripper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="kin.robogripper" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="load_parts" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="load_parts" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="parts_on_table" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="parts_on_table" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="product" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="product" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="ship_chassis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="ship_chassis" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="unload_extr1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="unload_extr1" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <configuration name="unload_extr2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="product" TARGET_NAME="unload_extr2" CONFIG_NAME="Default">
+      <envs />
+    </configuration>
+    <list size="22">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.agv.cart_in_cell" />
+      <item index="2" class="java.lang.String" itemvalue="Application.agv.cart_in_shipment" />
+      <item index="3" class="java.lang.String" itemvalue="Application.agv.cart_in_warehouse" />
+      <item index="4" class="java.lang.String" itemvalue="Application.build_battarey" />
+      <item index="5" class="java.lang.String" itemvalue="Application.build_chassis" />
+      <item index="6" class="java.lang.String" itemvalue="Application.cv.calibration" />
+      <item index="7" class="java.lang.String" itemvalue="Application.cv.camera1" />
+      <item index="8" class="java.lang.String" itemvalue="Application.cv.camera2" />
+      <item index="9" class="java.lang.String" itemvalue="Application.cv.camera3" />
+      <item index="10" class="java.lang.String" itemvalue="Application.cv.localize" />
+      <item index="11" class="java.lang.String" itemvalue="Application.kin.gripper" />
+      <item index="12" class="java.lang.String" itemvalue="Application.kin.joinparts" />
+      <item index="13" class="java.lang.String" itemvalue="Application.kin.manipulator" />
+      <item index="14" class="java.lang.String" itemvalue="Application.kin.manipulator_released" />
+      <item index="15" class="java.lang.String" itemvalue="Application.kin.robogripper" />
+      <item index="16" class="java.lang.String" itemvalue="Application.load_parts" />
+      <item index="17" class="java.lang.String" itemvalue="Application.parts_on_table" />
+      <item index="18" class="java.lang.String" itemvalue="Application.product" />
+      <item index="19" class="java.lang.String" itemvalue="Application.ship_chassis" />
+      <item index="20" class="java.lang.String" itemvalue="Application.unload_extr1" />
+      <item index="21" class="java.lang.String" itemvalue="Application.unload_extr2" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75503262-2cb4-4e5f-93c0-994c61ecf5c7" name="Default" comment="" />
+      <created>1514539164157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514539164157</updated>
+      <workItem from="1514539165949" duration="469000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="469000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="260" y="43" width="1400" height="937" extended-state="1" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/operations/build_battarey.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

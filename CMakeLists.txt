@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 include(abilities/agv.cmake)
 include(abilities/kinematics.cmake)
+#include(operations/build_battarey.cmake)
 
 
 project("product")
@@ -20,7 +21,6 @@ add_custom_command(TARGET load_parts
         COMMAND echo "[PEOPLE] Load Cart" >>plan
         COMMAND echo "[EVENT] PARTS ARE LOADED" >>plan
         )
-
 
 add_custom_target(unload_extr1)
 
@@ -47,6 +47,8 @@ add_custom_command(TARGET build_chassis
         COMMAND echo "[EVENT] CHASSIS IS READY" >>plan
         )
 
+add_custom_target(build_battarey)
+
 add_custom_target(ship_chassis)
 
 add_custom_command(TARGET ship_chassis
@@ -55,7 +57,7 @@ add_custom_command(TARGET ship_chassis
 
 #=========
 
-add_dependencies(product build_chassis ship_chassis)
+add_dependencies(product build_chassis build_battarey ship_chassis)
 
 add_dependencies(unload_extr1 agv.cart_in_cell kin.robogripper)
 add_dependencies(unload_extr2 agv.cart_in_cell kin.robogripper)

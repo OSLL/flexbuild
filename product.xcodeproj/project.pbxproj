@@ -1,0 +1,3811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		04E5E68DA49B49D987B3636F /* kin.manipulator_released */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80DB495D121C4AE8BE835F75 /* Build configuration list for PBXAggregateTarget "kin.manipulator_released" */;
+			buildPhases = (
+				BD13ACEACC60405A96603ED2 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				BB3814D40FF2464D8D98FABD /* PBXTargetDependency */,
+				C6697F439A704044A94415BC /* PBXTargetDependency */,
+			);
+			name = kin.manipulator_released;
+			productName = kin.manipulator_released;
+		};
+		0BC1AA83CD284C26BDF2CE23 /* unload_extr1 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AB4A3E23AE964FEFA9026E4D /* Build configuration list for PBXAggregateTarget "unload_extr1" */;
+			buildPhases = (
+				3909204BCB494A31BCDD3C78 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				769CBCB920864A528228B0E1 /* PBXTargetDependency */,
+				0B374C7E179243FD8735D5F8 /* PBXTargetDependency */,
+				0883EF5DA9A5453796FA1AA4 /* PBXTargetDependency */,
+			);
+			name = unload_extr1;
+			productName = unload_extr1;
+		};
+		1F319D2A4B7946EFA1FC30D7 /* parts_on_table */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EBB1069B87BC42139754B04B /* Build configuration list for PBXAggregateTarget "parts_on_table" */;
+			buildPhases = (
+				5669169DD31D436399FAA8C3 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				546E5376C6D54ECEBCE2766A /* PBXTargetDependency */,
+				CE21CA9572CE4AA8B8D6EDC6 /* PBXTargetDependency */,
+				1E99A361310C4BA78CCF2206 /* PBXTargetDependency */,
+			);
+			name = parts_on_table;
+			productName = parts_on_table;
+		};
+		390AA36DB82446509B16021B /* cv.camera2 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 98EC7BCE8C284D68B545B419 /* Build configuration list for PBXAggregateTarget "cv.camera2" */;
+			buildPhases = (
+				8D68B485E6384FFC8B6A6244 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3CF6CBBA02304E599520A7BC /* PBXTargetDependency */,
+			);
+			name = cv.camera2;
+			productName = cv.camera2;
+		};
+		3BDFF125B7FB4339889213EA /* agv.cart_in_cell */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 16F1A6E33AC74375B489B29F /* Build configuration list for PBXAggregateTarget "agv.cart_in_cell" */;
+			buildPhases = (
+				329F28BE9EF24429B6A3F592 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				04114DD4F2AF4920A31D4FBF /* PBXTargetDependency */,
+				46D4D329D10A41E3ABB1CABF /* PBXTargetDependency */,
+			);
+			name = agv.cart_in_cell;
+			productName = agv.cart_in_cell;
+		};
+		482D6FB54F584FA0846D6E01 /* kin.manipulator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 82B0FE9CF6E24DEDB0383CE9 /* Build configuration list for PBXAggregateTarget "kin.manipulator" */;
+			buildPhases = (
+				D25CA30B3CDB4110B219A159 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				86F345E3F09F45BDAFC37AA1 /* PBXTargetDependency */,
+			);
+			name = kin.manipulator;
+			productName = kin.manipulator;
+		};
+		515C6101C0A54E9A9DAF18A2 /* build_chassis */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5F89F7E12BE746B6A223E392 /* Build configuration list for PBXAggregateTarget "build_chassis" */;
+			buildPhases = (
+				EB62B9CBF85C4696A338AB57 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				F14C8E69BD074A5BA8E4D101 /* PBXTargetDependency */,
+				EC0D6C10FE7F447AA41B05B9 /* PBXTargetDependency */,
+				B11A531B20444ADDB8398FC3 /* PBXTargetDependency */,
+			);
+			name = build_chassis;
+			productName = build_chassis;
+		};
+		54786A04DFD84D69AE002C81 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 261C83CDA6FC4145B802858E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				76EDD4E4ACF6446CAFD7EF08 /* CMake Rules */,
+			);
+			dependencies = (
+				4A5580F97A844288B3AA3FB5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		6B9280EE268B47CD890A3D80 /* cv.camera3 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8FA85AA482A04A9EBD83B862 /* Build configuration list for PBXAggregateTarget "cv.camera3" */;
+			buildPhases = (
+				D11B575710CE483299DD6CBD /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				F621C7D1DAA5480E83840D19 /* PBXTargetDependency */,
+			);
+			name = cv.camera3;
+			productName = cv.camera3;
+		};
+		73E24AE589974B3785458EF9 /* cv.camera1 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 336E5640CABB45409C8E9CD2 /* Build configuration list for PBXAggregateTarget "cv.camera1" */;
+			buildPhases = (
+				EA2B9DAD4F4546E3AE9A42B6 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7118D895DAF243D48F9AD9A5 /* PBXTargetDependency */,
+			);
+			name = cv.camera1;
+			productName = cv.camera1;
+		};
+		8014931FE1C44E1285862746 /* cv.localize */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 128AEE7ECB5C4366BD287202 /* Build configuration list for PBXAggregateTarget "cv.localize" */;
+			buildPhases = (
+				2B3AE326872146FA9465B3D0 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				C0E5CBF4C2CC4411830F8AEF /* PBXTargetDependency */,
+				4BAFE91D378D4F19836AF6BD /* PBXTargetDependency */,
+				28D3B54F1784435E8AC43508 /* PBXTargetDependency */,
+				F6F772A8A02146FDAD2FE498 /* PBXTargetDependency */,
+				435B7449DA094067A10F7FDF /* PBXTargetDependency */,
+			);
+			name = cv.localize;
+			productName = cv.localize;
+		};
+		855856837F7D4FBEBCB42287 /* kin.robogripper */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CAE57FF1FF2E483D87587800 /* Build configuration list for PBXAggregateTarget "kin.robogripper" */;
+			buildPhases = (
+				4F0BCE5C18BC44D0B5608F5C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7C1C840B77B844149A16F6F5 /* PBXTargetDependency */,
+				6438D3B002B54C7888FF8D0F /* PBXTargetDependency */,
+				629BFFB008074A25B4106B73 /* PBXTargetDependency */,
+			);
+			name = kin.robogripper;
+			productName = kin.robogripper;
+		};
+		87908DF479894317AD289647 /* agv.cart_in_warehouse */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 275178DDFEBB4D5AA3EFE5D7 /* Build configuration list for PBXAggregateTarget "agv.cart_in_warehouse" */;
+			buildPhases = (
+				38907EAFC8584ED7B3575C88 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				999F12499DED471FBEAC6C89 /* PBXTargetDependency */,
+			);
+			name = agv.cart_in_warehouse;
+			productName = agv.cart_in_warehouse;
+		};
+		9670189322FD44E7A0403241 /* unload_extr2 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F38E850C2BAF453489235F22 /* Build configuration list for PBXAggregateTarget "unload_extr2" */;
+			buildPhases = (
+				D4A9557730B14CBAABA81496 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				B3C81BAE0945498D8F5B0121 /* PBXTargetDependency */,
+				D5A432C2052D422994EF0381 /* PBXTargetDependency */,
+				AD55C22FD52A42139C88C166 /* PBXTargetDependency */,
+			);
+			name = unload_extr2;
+			productName = unload_extr2;
+		};
+		C23DD5AF5DA94E58A2FA44F1 /* kin.joinparts */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48695D5A0C394936848B3A00 /* Build configuration list for PBXAggregateTarget "kin.joinparts" */;
+			buildPhases = (
+				BBFCB55196DF4F36B946BA14 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				07C10009F10B4D6DA6863F9D /* PBXTargetDependency */,
+				49974A4A79094615B9642C00 /* PBXTargetDependency */,
+				71613FB595E644A8B71D33E4 /* PBXTargetDependency */,
+				89A2B7C7602F4F6D82382CFD /* PBXTargetDependency */,
+			);
+			name = kin.joinparts;
+			productName = kin.joinparts;
+		};
+		CA8EEC8A95BC467B850E4761 /* agv.cart_in_shipment */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1B637B70B9DE449BB28F527E /* Build configuration list for PBXAggregateTarget "agv.cart_in_shipment" */;
+			buildPhases = (
+				F9D4F40586744B67ADB2F6B7 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				AE0842EDE15D4A10A7E3785A /* PBXTargetDependency */,
+				B284C6B0D2F24BC786342F4F /* PBXTargetDependency */,
+			);
+			name = agv.cart_in_shipment;
+			productName = agv.cart_in_shipment;
+		};
+		CF1A1FC9AD91497DB83BAFC0 /* cv.calibration */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EBAE775A22964B4CBCDD8B38 /* Build configuration list for PBXAggregateTarget "cv.calibration" */;
+			buildPhases = (
+				F997C183D1144F76A2C538AC /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				FD06918B035E48B58EC95AF4 /* PBXTargetDependency */,
+			);
+			name = cv.calibration;
+			productName = cv.calibration;
+		};
+		D18D9655FCD940E9B03D19C3 /* product */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3BA9877304214D0899BF9C99 /* Build configuration list for PBXAggregateTarget "product" */;
+			buildPhases = (
+				F3A3F2884FDD4094A1C6C494 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				CB434F5C2B8C464FB5E5B1D9 /* PBXTargetDependency */,
+				5406FC0FB4664BB28292ACEB /* PBXTargetDependency */,
+				2586150238004BA2AAB65BE5 /* PBXTargetDependency */,
+			);
+			name = product;
+			productName = product;
+		};
+		D4948EDDBF5449318C7E9AA8 /* ship_chassis */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9483406B165E4B29AA7A6568 /* Build configuration list for PBXAggregateTarget "ship_chassis" */;
+			buildPhases = (
+				84F7F1A2F7254670BA5EE276 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				35CA019447C145FDB298699E /* PBXTargetDependency */,
+				83181F2830CA4E1DAA7B3283 /* PBXTargetDependency */,
+			);
+			name = ship_chassis;
+			productName = ship_chassis;
+		};
+		DD027D9813D941089966438B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8DA279593CB64946ADFE74B5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F82C7EA8C7E74E5CA83579D9 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		DFBE8373948340219C6FFEF5 /* kin.gripper */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 619CFA5AD3C0453E82EF6C4E /* Build configuration list for PBXAggregateTarget "kin.gripper" */;
+			buildPhases = (
+				E146F1A977214A76830D9147 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				2CDF2C5D77FC42C990F166C6 /* PBXTargetDependency */,
+			);
+			name = kin.gripper;
+			productName = kin.gripper;
+		};
+		E44798A0FD494B3297FBB56E /* load_parts */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04AE56143FF74B9EA8715B82 /* Build configuration list for PBXAggregateTarget "load_parts" */;
+			buildPhases = (
+				0B0F21B533134FEEB368CB4D /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				53F8ABCE13E642C0BF5B2DF0 /* PBXTargetDependency */,
+				498E584176DB469BA608FCEA /* PBXTargetDependency */,
+			);
+			name = load_parts;
+			productName = load_parts;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		39198303384B42DD9FE79D87 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		99278FB6E87F4D30A752D2F4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B672380103F24C2EB5348FC5 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		DAA4E459C5A648B19A188D88 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		00FA598BF81346309FC720F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 482D6FB54F584FA0846D6E01;
+			remoteInfo = kin.manipulator;
+		};
+		102D808BC7AD487CB2CA9F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		152EEB8D4B114841829A6A0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BDFF125B7FB4339889213EA;
+			remoteInfo = agv.cart_in_cell;
+		};
+		271C1FF7FB7A4C5D870D3C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BDFF125B7FB4339889213EA;
+			remoteInfo = agv.cart_in_cell;
+		};
+		2ADC2812AB92435587605098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		304B46B8827B420692538736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		31922E626BC042839D520C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		35FD6BBEE78A4009A8D405BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		385A5BB8931947409ADF127A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23DD5AF5DA94E58A2FA44F1;
+			remoteInfo = kin.joinparts;
+		};
+		3D278695A81A4CAC81B82A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		4099EBEE91974FFA907CDC06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		496C3D25F66E485A81F078CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		4FA9A1CB24BC4351A6A57704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9280EE268B47CD890A3D80;
+			remoteInfo = cv.camera3;
+		};
+		50A44BD4B28E42D9AA68A7F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA8EEC8A95BC467B850E4761;
+			remoteInfo = agv.cart_in_shipment;
+		};
+		51701EA404ED4ECFB864E94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515C6101C0A54E9A9DAF18A2;
+			remoteInfo = build_chassis;
+		};
+		52C822DFB7114CA098E58A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		56628D07D4574976B78CD647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BC1AA83CD284C26BDF2CE23;
+			remoteInfo = unload_extr1;
+		};
+		5971F8E576764619B3CD32DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF1A1FC9AD91497DB83BAFC0;
+			remoteInfo = cv.calibration;
+		};
+		5AE0789135B142818D4FCD61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		60E8F0EB681B4AE4BFF99F4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		6407AFEC7C6941B6A4ED50BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8014931FE1C44E1285862746;
+			remoteInfo = cv.localize;
+		};
+		6809FB7518CA4336B81C85E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBE8373948340219C6FFEF5;
+			remoteInfo = kin.gripper;
+		};
+		6C2C73B73D3B4D9FB4080F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855856837F7D4FBEBCB42287;
+			remoteInfo = kin.robogripper;
+		};
+		6F38740D5F174470B9F53E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390AA36DB82446509B16021B;
+			remoteInfo = cv.camera2;
+		};
+		70CBD9B560A441CE99DCD7A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515C6101C0A54E9A9DAF18A2;
+			remoteInfo = build_chassis;
+		};
+		720BF2A4592E4A78BC0E8037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4948EDDBF5449318C7E9AA8;
+			remoteInfo = ship_chassis;
+		};
+		80DA56F38D8E4FC4A42AE158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E5E68DA49B49D987B3636F;
+			remoteInfo = kin.manipulator_released;
+		};
+		843194DA0F324E718CE949C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855856837F7D4FBEBCB42287;
+			remoteInfo = kin.robogripper;
+		};
+		88B5C9D629D44E8C91B59133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		908EAEF92ED44FF0AB6C32D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		91B1742966DF44929738E3AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		93FDF2D03FF0475D917778E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		994074C875AE459089B47301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		99B1A8A6213C4977AD901AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		A90CD78C632B4B848ED13003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 482D6FB54F584FA0846D6E01;
+			remoteInfo = kin.manipulator;
+		};
+		B222E84A2FBF417786F80BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87908DF479894317AD289647;
+			remoteInfo = agv.cart_in_warehouse;
+		};
+		BE39827A05DC44A89E5DA0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F319D2A4B7946EFA1FC30D7;
+			remoteInfo = parts_on_table;
+		};
+		C1E38751428B46B4828B9F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73E24AE589974B3785458EF9;
+			remoteInfo = cv.camera1;
+		};
+		C80D0E3AAD0B4B798BF3DB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		D22F3E42EDB549E6A94D9F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9670189322FD44E7A0403241;
+			remoteInfo = unload_extr2;
+		};
+		D27609B6E4FC46F9953843FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		DF67A4002B7F40B4822786FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F319D2A4B7946EFA1FC30D7;
+			remoteInfo = parts_on_table;
+		};
+		E28586DF9ECA4EC08BED4721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+		F74B107924224F0B88A8FA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44798A0FD494B3297FBB56E;
+			remoteInfo = load_parts;
+		};
+		FE2B21DC085A430F91447D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD027D9813D941089966438B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00ED3C861CD54EA1816B4150 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		075D1047F45248318772FD18 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		120CDBF9CB1A4433803E9C29 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		122F8E0C35E5465D8BA621D6 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		176D1F9221EB4955A70E7F97 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1A194221DBAB4216AA6CA81B /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		27132CDCED3941C197CE57EC /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3B5C679BE5714D30A9376249 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3BAB9AE5EC274C75B783CEEA /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4254AF4AD3764027B89B37A9 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5222E5CB84894ED690D84922 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		55BBA6607D6F4935AD312083 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6FAE1F7240124D27BF1B81C2 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7DB4C16EA9B943269CB2A4AD /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7F24374419E649E8A85356F2 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8C67ABA2D48E4573A157BF64 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		975E88C691A445058C1702DA /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		98304682497D4060A717B66C /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9F2BCCB8AD88401E83E84160 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B30DD687532542C7B0B0B622 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BC281DF6F45648BA82CD83D5 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EF7F951FAE774ADA9AD0B630 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0FB4FD7D658044808D9934DA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FFECBF9BC2144C5B91E79233 /* CMake Rules */,
+				9F2BCCB8AD88401E83E84160 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		167452EEA02D48AA88564272 /* product */ = {
+			isa = PBXGroup;
+			children = (
+				1A194221DBAB4216AA6CA81B /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = product;
+			sourceTree = "<group>";
+		};
+		208597C1676A467FB9C9C52E /* unload_extr1 */ = {
+			isa = PBXGroup;
+			children = (
+				5222E5CB84894ED690D84922 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = unload_extr1;
+			sourceTree = "<group>";
+		};
+		218EE0C45B024A9B85C59A80 /* build_chassis */ = {
+			isa = PBXGroup;
+			children = (
+				8C67ABA2D48E4573A157BF64 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = build_chassis;
+			sourceTree = "<group>";
+		};
+		24A25D5250604DBFB8C0771A /* cv.calibration */ = {
+			isa = PBXGroup;
+			children = (
+				3B5C679BE5714D30A9376249 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = cv.calibration;
+			sourceTree = "<group>";
+		};
+		290C17CC09854828AEC30F40 /* cv.camera1 */ = {
+			isa = PBXGroup;
+			children = (
+				075D1047F45248318772FD18 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = cv.camera1;
+			sourceTree = "<group>";
+		};
+		2AADC1FCE8CA49D4B6B3230F /* kin.manipulator */ = {
+			isa = PBXGroup;
+			children = (
+				7F24374419E649E8A85356F2 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = kin.manipulator;
+			sourceTree = "<group>";
+		};
+		3698BD0C753648F7B2484AF3 = {
+			isa = PBXGroup;
+			children = (
+				D986791F18D545A5832153A5 /* ship_chassis */,
+				218EE0C45B024A9B85C59A80 /* build_chassis */,
+				208597C1676A467FB9C9C52E /* unload_extr1 */,
+				A8CD57A2BDC7418BA23CC41E /* unload_extr2 */,
+				EC2F417EF3CB46939F18C73B /* load_parts */,
+				167452EEA02D48AA88564272 /* product */,
+				78FC75D66E4E4C1899CE1159 /* kin.robogripper */,
+				2AADC1FCE8CA49D4B6B3230F /* kin.manipulator */,
+				59936385421D4CF1AC5C5564 /* agv.cart_in_cell */,
+				4215964FDDEB4AF29E21DD55 /* cv.localize */,
+				24A25D5250604DBFB8C0771A /* cv.calibration */,
+				7FDDABB318DF486BA2FCC741 /* parts_on_table */,
+				B2C0C23416804A3589114CBF /* kin.joinparts */,
+				9B14ADFEA3964A00A6DDC9CD /* kin.gripper */,
+				290C17CC09854828AEC30F40 /* cv.camera1 */,
+				EB675D6F3EC8470A8DE57278 /* kin.manipulator_released */,
+				BE95BCFAFDD5428B998740D9 /* cv.camera2 */,
+				517AD665DA6C49128AA33BBD /* agv.cart_in_shipment */,
+				CF86EAC85B1C4E3280CD61E9 /* agv.cart_in_warehouse */,
+				9361F52A249348349B1DF2F7 /* cv.camera3 */,
+				0FB4FD7D658044808D9934DA /* ALL_BUILD */,
+				470B7249C213418E88B40790 /* ZERO_CHECK */,
+				CDCAB447286B4601A95F4766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4215964FDDEB4AF29E21DD55 /* cv.localize */ = {
+			isa = PBXGroup;
+			children = (
+				7DB4C16EA9B943269CB2A4AD /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = cv.localize;
+			sourceTree = "<group>";
+		};
+		470B7249C213418E88B40790 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				9FEDB151E6E54F1A82400C01 /* CMake Rules */,
+				98304682497D4060A717B66C /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		517AD665DA6C49128AA33BBD /* agv.cart_in_shipment */ = {
+			isa = PBXGroup;
+			children = (
+				176D1F9221EB4955A70E7F97 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = agv.cart_in_shipment;
+			sourceTree = "<group>";
+		};
+		59936385421D4CF1AC5C5564 /* agv.cart_in_cell */ = {
+			isa = PBXGroup;
+			children = (
+				EF7F951FAE774ADA9AD0B630 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = agv.cart_in_cell;
+			sourceTree = "<group>";
+		};
+		78FC75D66E4E4C1899CE1159 /* kin.robogripper */ = {
+			isa = PBXGroup;
+			children = (
+				BC281DF6F45648BA82CD83D5 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = kin.robogripper;
+			sourceTree = "<group>";
+		};
+		7FDDABB318DF486BA2FCC741 /* parts_on_table */ = {
+			isa = PBXGroup;
+			children = (
+				B30DD687532542C7B0B0B622 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = parts_on_table;
+			sourceTree = "<group>";
+		};
+		9361F52A249348349B1DF2F7 /* cv.camera3 */ = {
+			isa = PBXGroup;
+			children = (
+				27132CDCED3941C197CE57EC /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = cv.camera3;
+			sourceTree = "<group>";
+		};
+		9B14ADFEA3964A00A6DDC9CD /* kin.gripper */ = {
+			isa = PBXGroup;
+			children = (
+				120CDBF9CB1A4433803E9C29 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = kin.gripper;
+			sourceTree = "<group>";
+		};
+		9FEDB151E6E54F1A82400C01 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A8CD57A2BDC7418BA23CC41E /* unload_extr2 */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB9AE5EC274C75B783CEEA /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = unload_extr2;
+			sourceTree = "<group>";
+		};
+		B2C0C23416804A3589114CBF /* kin.joinparts */ = {
+			isa = PBXGroup;
+			children = (
+				122F8E0C35E5465D8BA621D6 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = kin.joinparts;
+			sourceTree = "<group>";
+		};
+		BE95BCFAFDD5428B998740D9 /* cv.camera2 */ = {
+			isa = PBXGroup;
+			children = (
+				55BBA6607D6F4935AD312083 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = cv.camera2;
+			sourceTree = "<group>";
+		};
+		CDCAB447286B4601A95F4766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF86EAC85B1C4E3280CD61E9 /* agv.cart_in_warehouse */ = {
+			isa = PBXGroup;
+			children = (
+				975E88C691A445058C1702DA /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = agv.cart_in_warehouse;
+			sourceTree = "<group>";
+		};
+		D986791F18D545A5832153A5 /* ship_chassis */ = {
+			isa = PBXGroup;
+			children = (
+				00ED3C861CD54EA1816B4150 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = ship_chassis;
+			sourceTree = "<group>";
+		};
+		EB675D6F3EC8470A8DE57278 /* kin.manipulator_released */ = {
+			isa = PBXGroup;
+			children = (
+				4254AF4AD3764027B89B37A9 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = kin.manipulator_released;
+			sourceTree = "<group>";
+		};
+		EC2F417EF3CB46939F18C73B /* load_parts */ = {
+			isa = PBXGroup;
+			children = (
+				6FAE1F7240124D27BF1B81C2 /* /Users/kristinapultsina/flexbuild/CMakeLists.txt */,
+			);
+			name = load_parts;
+			sourceTree = "<group>";
+		};
+		FFECBF9BC2144C5B91E79233 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		28C0DEC25BBC4A5C8AC20C73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 124775228E594541A14555A1 /* Build configuration list for PBXProject "product" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B672380103F24C2EB5348FC5 /* Debug */,
+				DAA4E459C5A648B19A188D88 /* Release */,
+				39198303384B42DD9FE79D87 /* MinSizeRel */,
+				99278FB6E87F4D30A752D2F4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3698BD0C753648F7B2484AF3;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				54786A04DFD84D69AE002C81 /* ALL_BUILD */,
+				DD027D9813D941089966438B /* ZERO_CHECK */,
+				3BDFF125B7FB4339889213EA /* agv.cart_in_cell */,
+				CA8EEC8A95BC467B850E4761 /* agv.cart_in_shipment */,
+				87908DF479894317AD289647 /* agv.cart_in_warehouse */,
+				515C6101C0A54E9A9DAF18A2 /* build_chassis */,
+				CF1A1FC9AD91497DB83BAFC0 /* cv.calibration */,
+				73E24AE589974B3785458EF9 /* cv.camera1 */,
+				390AA36DB82446509B16021B /* cv.camera2 */,
+				6B9280EE268B47CD890A3D80 /* cv.camera3 */,
+				8014931FE1C44E1285862746 /* cv.localize */,
+				DFBE8373948340219C6FFEF5 /* kin.gripper */,
+				C23DD5AF5DA94E58A2FA44F1 /* kin.joinparts */,
+				482D6FB54F584FA0846D6E01 /* kin.manipulator */,
+				04E5E68DA49B49D987B3636F /* kin.manipulator_released */,
+				855856837F7D4FBEBCB42287 /* kin.robogripper */,
+				E44798A0FD494B3297FBB56E /* load_parts */,
+				1F319D2A4B7946EFA1FC30D7 /* parts_on_table */,
+				D18D9655FCD940E9B03D19C3 /* product */,
+				D4948EDDBF5449318C7E9AA8 /* ship_chassis */,
+				0BC1AA83CD284C26BDF2CE23 /* unload_extr1 */,
+				9670189322FD44E7A0403241 /* unload_extr2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		058E1F48FF98424BBA380BFE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		09EEDC0C4C2A435F8D445C73 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		0B0F21B533134FEEB368CB4D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/load_parts_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1975D1F0C31849EEAEBA73A0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1EFC4E4926EA4686ADAD773F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2B3AE326872146FA9465B3D0 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/cv.localize_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		329F28BE9EF24429B6A3F592 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/agv.cart_in_cell_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		34AA5BF2A65D4656A2897EAD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		356239EBD8EB485FB5F0A70C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		38907EAFC8584ED7B3575C88 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/agv.cart_in_warehouse_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3909204BCB494A31BCDD3C78 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/unload_extr1_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3B00670FF87142BAADD4E20E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3EF84D132E1E4C6C9C73C29C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4F0BCE5C18BC44D0B5608F5C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/kin.robogripper_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		51C1CE37CE464BAB93CB0B4A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5669169DD31D436399FAA8C3 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/parts_on_table_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		567DD17743C24BF39BDC5659 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6E36E90BCBC2470BBDE69BBF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		729CDAD89D6248C4927730FF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		76EDD4E4ACF6446CAFD7EF08 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		84F7F1A2F7254670BA5EE276 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/ship_chassis_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8D68B485E6384FFC8B6A6244 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/cv.camera2_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8F71FD3F90C04BB5A1C7C62E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		92CFD90A42674D3DA93F7D06 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A1E1AE720C9C4D7C93F5A526 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B2116CBEAC274A96AFC71C70 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BBFCB55196DF4F36B946BA14 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/kin.joinparts_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BD13ACEACC60405A96603ED2 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/kin.manipulator_released_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D11B575710CE483299DD6CBD /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/cv.camera3_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D25CA30B3CDB4110B219A159 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/kin.manipulator_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D4A9557730B14CBAABA81496 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/unload_extr2_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E0B7BB77FBAC4F5F8518CB82 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E146F1A977214A76830D9147 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/kin.gripper_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E4544010F3EC4935B1E23190 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E9951EC35A4545EE9FBE9726 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EA2B9DAD4F4546E3AE9A42B6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/cv.camera1_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EA8DFEAAD7304779BDED54AF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EB62B9CBF85C4696A338AB57 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/build_chassis_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		ECF489F442754605B23066FD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F3A3F2884FDD4094A1C6C494 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/product_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F7A904A27C344B4AA34EA810 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F82C7EA8C7E74E5CA83579D9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F997C183D1144F76A2C538AC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/cv.calibration_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F9D4F40586744B67ADB2F6B7 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kristinapultsina/flexbuild -f /Users/kristinapultsina/flexbuild/CMakeScripts/agv.cart_in_shipment_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04114DD4F2AF4920A31D4FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E44798A0FD494B3297FBB56E /* load_parts */;
+			targetProxy = F74B107924224F0B88A8FA68 /* PBXContainerItemProxy */;
+		};
+		07C10009F10B4D6DA6863F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 482D6FB54F584FA0846D6E01 /* kin.manipulator */;
+			targetProxy = 00FA598BF81346309FC720F7 /* PBXContainerItemProxy */;
+		};
+		0883EF5DA9A5453796FA1AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 994074C875AE459089B47301 /* PBXContainerItemProxy */;
+		};
+		0B374C7E179243FD8735D5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BDFF125B7FB4339889213EA /* agv.cart_in_cell */;
+			targetProxy = 152EEB8D4B114841829A6A0E /* PBXContainerItemProxy */;
+		};
+		1E99A361310C4BA78CCF2206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 93FDF2D03FF0475D917778E5 /* PBXContainerItemProxy */;
+		};
+		2586150238004BA2AAB65BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 4099EBEE91974FFA907CDC06 /* PBXContainerItemProxy */;
+		};
+		28D3B54F1784435E8AC43508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390AA36DB82446509B16021B /* cv.camera2 */;
+			targetProxy = 6F38740D5F174470B9F53E5D /* PBXContainerItemProxy */;
+		};
+		2CDF2C5D77FC42C990F166C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 304B46B8827B420692538736 /* PBXContainerItemProxy */;
+		};
+		35CA019447C145FDB298699E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA8EEC8A95BC467B850E4761 /* agv.cart_in_shipment */;
+			targetProxy = 50A44BD4B28E42D9AA68A7F7 /* PBXContainerItemProxy */;
+		};
+		3CF6CBBA02304E599520A7BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 31922E626BC042839D520C77 /* PBXContainerItemProxy */;
+		};
+		435B7449DA094067A10F7FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 35FD6BBEE78A4009A8D405BB /* PBXContainerItemProxy */;
+		};
+		46D4D329D10A41E3ABB1CABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 2ADC2812AB92435587605098 /* PBXContainerItemProxy */;
+		};
+		498E584176DB469BA608FCEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = E28586DF9ECA4EC08BED4721 /* PBXContainerItemProxy */;
+		};
+		49974A4A79094615B9642C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8014931FE1C44E1285862746 /* cv.localize */;
+			targetProxy = 6407AFEC7C6941B6A4ED50BB /* PBXContainerItemProxy */;
+		};
+		4A5580F97A844288B3AA3FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 496C3D25F66E485A81F078CA /* PBXContainerItemProxy */;
+		};
+		4BAFE91D378D4F19836AF6BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73E24AE589974B3785458EF9 /* cv.camera1 */;
+			targetProxy = C1E38751428B46B4828B9F41 /* PBXContainerItemProxy */;
+		};
+		53F8ABCE13E642C0BF5B2DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87908DF479894317AD289647 /* agv.cart_in_warehouse */;
+			targetProxy = B222E84A2FBF417786F80BE0 /* PBXContainerItemProxy */;
+		};
+		5406FC0FB4664BB28292ACEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515C6101C0A54E9A9DAF18A2 /* build_chassis */;
+			targetProxy = 51701EA404ED4ECFB864E94E /* PBXContainerItemProxy */;
+		};
+		546E5376C6D54ECEBCE2766A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BC1AA83CD284C26BDF2CE23 /* unload_extr1 */;
+			targetProxy = 56628D07D4574976B78CD647 /* PBXContainerItemProxy */;
+		};
+		629BFFB008074A25B4106B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 88B5C9D629D44E8C91B59133 /* PBXContainerItemProxy */;
+		};
+		6438D3B002B54C7888FF8D0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBE8373948340219C6FFEF5 /* kin.gripper */;
+			targetProxy = 6809FB7518CA4336B81C85E2 /* PBXContainerItemProxy */;
+		};
+		7118D895DAF243D48F9AD9A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 99B1A8A6213C4977AD901AD9 /* PBXContainerItemProxy */;
+		};
+		71613FB595E644A8B71D33E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E5E68DA49B49D987B3636F /* kin.manipulator_released */;
+			targetProxy = 80DA56F38D8E4FC4A42AE158 /* PBXContainerItemProxy */;
+		};
+		769CBCB920864A528228B0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855856837F7D4FBEBCB42287 /* kin.robogripper */;
+			targetProxy = 6C2C73B73D3B4D9FB4080F1C /* PBXContainerItemProxy */;
+		};
+		7C1C840B77B844149A16F6F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 482D6FB54F584FA0846D6E01 /* kin.manipulator */;
+			targetProxy = A90CD78C632B4B848ED13003 /* PBXContainerItemProxy */;
+		};
+		83181F2830CA4E1DAA7B3283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = FE2B21DC085A430F91447D05 /* PBXContainerItemProxy */;
+		};
+		86F345E3F09F45BDAFC37AA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 102D808BC7AD487CB2CA9F28 /* PBXContainerItemProxy */;
+		};
+		89A2B7C7602F4F6D82382CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = C80D0E3AAD0B4B798BF3DB74 /* PBXContainerItemProxy */;
+		};
+		999F12499DED471FBEAC6C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 91B1742966DF44929738E3AD /* PBXContainerItemProxy */;
+		};
+		AD55C22FD52A42139C88C166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 52C822DFB7114CA098E58A03 /* PBXContainerItemProxy */;
+		};
+		AE0842EDE15D4A10A7E3785A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515C6101C0A54E9A9DAF18A2 /* build_chassis */;
+			targetProxy = 70CBD9B560A441CE99DCD7A1 /* PBXContainerItemProxy */;
+		};
+		B11A531B20444ADDB8398FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 3D278695A81A4CAC81B82A17 /* PBXContainerItemProxy */;
+		};
+		B284C6B0D2F24BC786342F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = D27609B6E4FC46F9953843FF /* PBXContainerItemProxy */;
+		};
+		B3C81BAE0945498D8F5B0121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855856837F7D4FBEBCB42287 /* kin.robogripper */;
+			targetProxy = 843194DA0F324E718CE949C9 /* PBXContainerItemProxy */;
+		};
+		BB3814D40FF2464D8D98FABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F319D2A4B7946EFA1FC30D7 /* parts_on_table */;
+			targetProxy = DF67A4002B7F40B4822786FE /* PBXContainerItemProxy */;
+		};
+		C0E5CBF4C2CC4411830F8AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF1A1FC9AD91497DB83BAFC0 /* cv.calibration */;
+			targetProxy = 5971F8E576764619B3CD32DF /* PBXContainerItemProxy */;
+		};
+		C6697F439A704044A94415BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 908EAEF92ED44FF0AB6C32D8 /* PBXContainerItemProxy */;
+		};
+		CB434F5C2B8C464FB5E5B1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4948EDDBF5449318C7E9AA8 /* ship_chassis */;
+			targetProxy = 720BF2A4592E4A78BC0E8037 /* PBXContainerItemProxy */;
+		};
+		CE21CA9572CE4AA8B8D6EDC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9670189322FD44E7A0403241 /* unload_extr2 */;
+			targetProxy = D22F3E42EDB549E6A94D9F9D /* PBXContainerItemProxy */;
+		};
+		D5A432C2052D422994EF0381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BDFF125B7FB4339889213EA /* agv.cart_in_cell */;
+			targetProxy = 271C1FF7FB7A4C5D870D3C52 /* PBXContainerItemProxy */;
+		};
+		EC0D6C10FE7F447AA41B05B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23DD5AF5DA94E58A2FA44F1 /* kin.joinparts */;
+			targetProxy = 385A5BB8931947409ADF127A /* PBXContainerItemProxy */;
+		};
+		F14C8E69BD074A5BA8E4D101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F319D2A4B7946EFA1FC30D7 /* parts_on_table */;
+			targetProxy = BE39827A05DC44A89E5DA0CE /* PBXContainerItemProxy */;
+		};
+		F621C7D1DAA5480E83840D19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 60E8F0EB681B4AE4BFF99F4D /* PBXContainerItemProxy */;
+		};
+		F6F772A8A02146FDAD2FE498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B9280EE268B47CD890A3D80 /* cv.camera3 */;
+			targetProxy = 4FA9A1CB24BC4351A6A57704 /* PBXContainerItemProxy */;
+		};
+		FD06918B035E48B58EC95AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD027D9813D941089966438B /* ZERO_CHECK */;
+			targetProxy = 5AE0789135B142818D4FCD61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0015B178D0844BBD94AA0C9B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = build_chassis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0348E129EE1346C5AD1CA050 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.manipulator_released;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		048B835B11524AFFA0CCDB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = load_parts;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		081C3DC8EFB845EA8653A6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_cell;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0A89DC9BBC714BCE9F2F860F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0BD42F4F777C45BF955BF5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = build_chassis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		10B2DCC2BAB847D5B687CDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.manipulator;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1AB67F02AE5B4E4F9759D019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_shipment;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		223FE32D92BD40EABA0633A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kristinapultsina/flexbuild/build;
+			};
+			name = Debug;
+		};
+		24F3C8E73783432081189149 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ship_chassis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		333FA42E09624AEFB87919B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3354B93AFE9A4CFC9E5AB2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.calibration;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3640993683BA4F06AAC288D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unload_extr2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		37E797896C6A46259D378FF6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.joinparts;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		38177605F8F643B6B428FCC0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = load_parts;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		39948990501E4349A759BB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_warehouse;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3D6B4C636D324E7D9F57BC87 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kristinapultsina/flexbuild/build;
+			};
+			name = RelWithDebInfo;
+		};
+		448E7339A0CD49EAA1705190 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ship_chassis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		47A70F5FC7EA49908108588F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.robogripper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		48A109E4DCF5406A92063B37 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		48E2B3936DCE435A92F1E621 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4BEE829344F741F6A9A7C0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4CB2651491A64D68B9695F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = parts_on_table;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		50B5FC01C2234A0AB44CE2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.robogripper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		51F6E0DB72A14A45B6448D9F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.gripper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		531DD3E441154688AC27304E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.localize;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5440437CD1CD48F2995C74C7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.manipulator;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		56BC954CFDAE4850BB00EDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = product;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		57BF869013A34368ADDABBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.joinparts;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5936B5A43FBE41DE9AA5269D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unload_extr1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5DB8E3F6F94441F4ADA3853A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		63899165BD834E7FAB26341C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kristinapultsina/flexbuild/build;
+			};
+			name = Release;
+		};
+		63A3ACF29CBD4210870469BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.localize;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6435528E344046C2A90CE9B4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		671835F35C44480AA3F2C8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = load_parts;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6BD3D86FD342429F8405BBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6D0AB18434B74841BBF473F4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.manipulator_released;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6E192C02F13D4CACADD75C9A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.calibration;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6F1AF19DB7F24D089EA88F2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.gripper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6F5C69BFB820435EB06D0AE8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		727A151C959042E18428E0EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		72994C0CFB544E29829175E5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.joinparts;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7514C79BC53F4C9E889E7435 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_warehouse;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		764A9602CC794415836FA033 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = product;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7D879BB65CD040ABA5B22E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = parts_on_table;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7F7CB129BEDE4DE2B3DBFE97 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_shipment;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8084D31A39694FBE9F0B14FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ship_chassis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		815F4FF557C54F30BDEDF504 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		88280E2C1D334D38AB9ACA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unload_extr1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8FB52612BEE04C82BD689DB9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.manipulator;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8FDA50996BCC438BAF526964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unload_extr1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		91A9B5F30625439C9894B6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = product;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		91E745CCF8564CB29F872F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_shipment;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9215FD3EB37F4485B3948CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.joinparts;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9262CAA36060499D8C9CDCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ship_chassis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		94D97641A0774EA0ADB53041 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9A17366F26B144C1BBC7E428 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/kristinapultsina/flexbuild/build;
+			};
+			name = MinSizeRel;
+		};
+		9ABD58BE0C8348A1AEAB7994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.manipulator_released;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9B7FDB3A9FFB43719A35A8A3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unload_extr2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9D5815722A864FE7A9734D5A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unload_extr2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9E7F5EBBEDB04613B0FAE0CE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = parts_on_table;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9FA1F1D0EFD245EBA4DA363F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_warehouse;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A6402D2769B24043AD1BDB00 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_shipment;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AB31235597C74A869843EB51 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ABE97A9EC76D4201AE36F8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B31FDB95655949CA8E1919F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.manipulator_released;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B4640E5636DC43F2A4FF6AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B58F73D6BC3F497F8B9213CE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.robogripper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B602526B5587435B8328E6D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = build_chassis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B967F857DE654F2FBAFD7B4C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BFF9DF64BA7A4349B8E48D30 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = load_parts;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C054D9ECA0BF41D998C9294C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = product;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C34DE6669B814E3592EC22AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C6AB2B5A8789420B8E2A1371 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = parts_on_table;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D7EF511EDE524F219C99B2B2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D938C8E3F28848F4A3F78979 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unload_extr1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DA20A68A64D047BB9669C758 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.localize;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DC3E9DB7071A4872972F1F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.manipulator;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E1AB0FE82081447FA87A6C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.camera2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E41AF98DDC984039B3784AD4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_cell;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E7360FC9BD594B0ABE41F7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = build_chassis;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EA6D7372E401479CB548E36B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.calibration;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EBEDD6804AE94C00919EB0E4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_warehouse;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EC62D0EC32624C10A787E238 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.gripper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EDEC557089FF46718EB9E2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unload_extr2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F202E0062B8B43DE94CC6B1C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_cell;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F2747AA9E6BA4186AA4EDAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.localize;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F3B450E74BAC44F285CC1265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = agv.cart_in_cell;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FA53B1AFF76449E5864D5300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FC22371C253D4F22AAB945D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.gripper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FCB203A9E593469CABA03D60 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = kin.robogripper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FDF1023FF4E9464C9E3AB2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv.calibration;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kristinapultsina/flexbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AE56143FF74B9EA8715B82 /* Build configuration list for PBXAggregateTarget "load_parts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671835F35C44480AA3F2C8AF /* Debug */,
+				048B835B11524AFFA0CCDB88 /* Release */,
+				BFF9DF64BA7A4349B8E48D30 /* MinSizeRel */,
+				38177605F8F643B6B428FCC0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		124775228E594541A14555A1 /* Build configuration list for PBXProject "product" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223FE32D92BD40EABA0633A4 /* Debug */,
+				63899165BD834E7FAB26341C /* Release */,
+				9A17366F26B144C1BBC7E428 /* MinSizeRel */,
+				3D6B4C636D324E7D9F57BC87 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		128AEE7ECB5C4366BD287202 /* Build configuration list for PBXAggregateTarget "cv.localize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2747AA9E6BA4186AA4EDAB1 /* Debug */,
+				63A3ACF29CBD4210870469BC /* Release */,
+				DA20A68A64D047BB9669C758 /* MinSizeRel */,
+				531DD3E441154688AC27304E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		16F1A6E33AC74375B489B29F /* Build configuration list for PBXAggregateTarget "agv.cart_in_cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B450E74BAC44F285CC1265 /* Debug */,
+				081C3DC8EFB845EA8653A6C2 /* Release */,
+				E41AF98DDC984039B3784AD4 /* MinSizeRel */,
+				F202E0062B8B43DE94CC6B1C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1B637B70B9DE449BB28F527E /* Build configuration list for PBXAggregateTarget "agv.cart_in_shipment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E745CCF8564CB29F872F0E /* Debug */,
+				1AB67F02AE5B4E4F9759D019 /* Release */,
+				7F7CB129BEDE4DE2B3DBFE97 /* MinSizeRel */,
+				A6402D2769B24043AD1BDB00 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		261C83CDA6FC4145B802858E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333FA42E09624AEFB87919B7 /* Debug */,
+				5DB8E3F6F94441F4ADA3853A /* Release */,
+				94D97641A0774EA0ADB53041 /* MinSizeRel */,
+				6F5C69BFB820435EB06D0AE8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		275178DDFEBB4D5AA3EFE5D7 /* Build configuration list for PBXAggregateTarget "agv.cart_in_warehouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA1F1D0EFD245EBA4DA363F /* Debug */,
+				39948990501E4349A759BB77 /* Release */,
+				7514C79BC53F4C9E889E7435 /* MinSizeRel */,
+				EBEDD6804AE94C00919EB0E4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		336E5640CABB45409C8E9CD2 /* Build configuration list for PBXAggregateTarget "cv.camera1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE97A9EC76D4201AE36F8E4 /* Debug */,
+				0A89DC9BBC714BCE9F2F860F /* Release */,
+				48E2B3936DCE435A92F1E621 /* MinSizeRel */,
+				AB31235597C74A869843EB51 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3BA9877304214D0899BF9C99 /* Build configuration list for PBXAggregateTarget "product" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A9B5F30625439C9894B6EB /* Debug */,
+				56BC954CFDAE4850BB00EDB7 /* Release */,
+				C054D9ECA0BF41D998C9294C /* MinSizeRel */,
+				764A9602CC794415836FA033 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		48695D5A0C394936848B3A00 /* Build configuration list for PBXAggregateTarget "kin.joinparts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BF869013A34368ADDABBD1 /* Debug */,
+				9215FD3EB37F4485B3948CD5 /* Release */,
+				37E797896C6A46259D378FF6 /* MinSizeRel */,
+				72994C0CFB544E29829175E5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5F89F7E12BE746B6A223E392 /* Build configuration list for PBXAggregateTarget "build_chassis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD42F4F777C45BF955BF5BE /* Debug */,
+				E7360FC9BD594B0ABE41F7EF /* Release */,
+				0015B178D0844BBD94AA0C9B /* MinSizeRel */,
+				B602526B5587435B8328E6D3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		619CFA5AD3C0453E82EF6C4E /* Build configuration list for PBXAggregateTarget "kin.gripper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC22371C253D4F22AAB945D0 /* Debug */,
+				6F1AF19DB7F24D089EA88F2B /* Release */,
+				EC62D0EC32624C10A787E238 /* MinSizeRel */,
+				51F6E0DB72A14A45B6448D9F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80DB495D121C4AE8BE835F75 /* Build configuration list for PBXAggregateTarget "kin.manipulator_released" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABD58BE0C8348A1AEAB7994 /* Debug */,
+				B31FDB95655949CA8E1919F3 /* Release */,
+				0348E129EE1346C5AD1CA050 /* MinSizeRel */,
+				6D0AB18434B74841BBF473F4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		82B0FE9CF6E24DEDB0383CE9 /* Build configuration list for PBXAggregateTarget "kin.manipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3E9DB7071A4872972F1F11 /* Debug */,
+				10B2DCC2BAB847D5B687CDD2 /* Release */,
+				8FB52612BEE04C82BD689DB9 /* MinSizeRel */,
+				5440437CD1CD48F2995C74C7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8DA279593CB64946ADFE74B5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA53B1AFF76449E5864D5300 /* Debug */,
+				6BD3D86FD342429F8405BBD1 /* Release */,
+				727A151C959042E18428E0EB /* MinSizeRel */,
+				815F4FF557C54F30BDEDF504 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FA85AA482A04A9EBD83B862 /* Build configuration list for PBXAggregateTarget "cv.camera3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4640E5636DC43F2A4FF6AC8 /* Debug */,
+				4BEE829344F741F6A9A7C0E6 /* Release */,
+				48A109E4DCF5406A92063B37 /* MinSizeRel */,
+				D7EF511EDE524F219C99B2B2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9483406B165E4B29AA7A6568 /* Build configuration list for PBXAggregateTarget "ship_chassis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8084D31A39694FBE9F0B14FA /* Debug */,
+				9262CAA36060499D8C9CDCF3 /* Release */,
+				24F3C8E73783432081189149 /* MinSizeRel */,
+				448E7339A0CD49EAA1705190 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		98EC7BCE8C284D68B545B419 /* Build configuration list for PBXAggregateTarget "cv.camera2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34DE6669B814E3592EC22AD /* Debug */,
+				E1AB0FE82081447FA87A6C39 /* Release */,
+				6435528E344046C2A90CE9B4 /* MinSizeRel */,
+				B967F857DE654F2FBAFD7B4C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB4A3E23AE964FEFA9026E4D /* Build configuration list for PBXAggregateTarget "unload_extr1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FDA50996BCC438BAF526964 /* Debug */,
+				88280E2C1D334D38AB9ACA90 /* Release */,
+				D938C8E3F28848F4A3F78979 /* MinSizeRel */,
+				5936B5A43FBE41DE9AA5269D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CAE57FF1FF2E483D87587800 /* Build configuration list for PBXAggregateTarget "kin.robogripper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A70F5FC7EA49908108588F /* Debug */,
+				50B5FC01C2234A0AB44CE2A7 /* Release */,
+				FCB203A9E593469CABA03D60 /* MinSizeRel */,
+				B58F73D6BC3F497F8B9213CE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBAE775A22964B4CBCDD8B38 /* Build configuration list for PBXAggregateTarget "cv.calibration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF1023FF4E9464C9E3AB2AC /* Debug */,
+				3354B93AFE9A4CFC9E5AB2BC /* Release */,
+				EA6D7372E401479CB548E36B /* MinSizeRel */,
+				6E192C02F13D4CACADD75C9A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBB1069B87BC42139754B04B /* Build configuration list for PBXAggregateTarget "parts_on_table" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D879BB65CD040ABA5B22E62 /* Debug */,
+				4CB2651491A64D68B9695F57 /* Release */,
+				9E7F5EBBEDB04613B0FAE0CE /* MinSizeRel */,
+				C6AB2B5A8789420B8E2A1371 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F38E850C2BAF453489235F22 /* Build configuration list for PBXAggregateTarget "unload_extr2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3640993683BA4F06AAC288D9 /* Debug */,
+				EDEC557089FF46718EB9E2FD /* Release */,
+				9B7FDB3A9FFB43719A35A8A3 /* MinSizeRel */,
+				9D5815722A864FE7A9734D5A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C0DEC25BBC4A5C8AC20C73 /* Project object */;
+}

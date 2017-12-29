@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="product"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\abilities\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ship_chassis">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 ship_chassis"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="build_chassis">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 build_chassis"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unload_extr1">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 unload_extr1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unload_extr2">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 unload_extr2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="load_parts">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 load_parts"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="product">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 product"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kin.robogripper">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 kin.robogripper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kin.manipulator">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 kin.manipulator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="agv.cart_in_cell">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 agv.cart_in_cell"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cv.localize">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 cv.localize"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cv.calibration">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 cv.calibration"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parts_on_table">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 parts_on_table"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kin.joinparts">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 kin.joinparts"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kin.gripper">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 kin.gripper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cv.camera1">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 cv.camera1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kin.manipulator_released">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 kin.manipulator_released"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="build_battarey">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 build_battarey"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cv.camera2">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 cv.camera2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="agv.cart_in_shipment">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 agv.cart_in_shipment"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="agv.cart_in_warehouse">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 agv.cart_in_warehouse"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cv.camera3">
+				<Option working_dir="/Users/kristinapultsina/flexbuild"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 cv.camera3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kristinapultsina/flexbuild/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kristinapultsina/flexbuild/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/kristinapultsina/flexbuild/abilities/agv.cmake">
+			<Option virtualFolder="CMake Files\abilities\"/>
+		</Unit>
+		<Unit filename="/Users/kristinapultsina/flexbuild/abilities/kinematics.cmake">
+			<Option virtualFolder="CMake Files\abilities\"/>
+		</Unit>
+		<Unit filename="/Users/kristinapultsina/flexbuild/abilities/cv.cmake">
+			<Option virtualFolder="CMake Files\abilities\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
