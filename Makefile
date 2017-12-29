@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/kristinapultsina/flexbuild
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -137,19 +137,6 @@ build_chassis/fast:
 .PHONY : build_chassis/fast
 
 #=============================================================================
-# Target rules for targets named unload_extr1
-
-# Build rule for target.
-unload_extr1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 unload_extr1
-.PHONY : unload_extr1
-
-# fast build rule for target.
-unload_extr1/fast:
-	$(MAKE) -f CMakeFiles/unload_extr1.dir/build.make CMakeFiles/unload_extr1.dir/build
-.PHONY : unload_extr1/fast
-
-#=============================================================================
 # Target rules for targets named unload_extr2
 
 # Build rule for target.
@@ -163,17 +150,17 @@ unload_extr2/fast:
 .PHONY : unload_extr2/fast
 
 #=============================================================================
-# Target rules for targets named load_parts
+# Target rules for targets named unload_extr1
 
 # Build rule for target.
-load_parts: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 load_parts
-.PHONY : load_parts
+unload_extr1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unload_extr1
+.PHONY : unload_extr1
 
 # fast build rule for target.
-load_parts/fast:
-	$(MAKE) -f CMakeFiles/load_parts.dir/build.make CMakeFiles/load_parts.dir/build
-.PHONY : load_parts/fast
+unload_extr1/fast:
+	$(MAKE) -f CMakeFiles/unload_extr1.dir/build.make CMakeFiles/unload_extr1.dir/build
+.PHONY : unload_extr1/fast
 
 #=============================================================================
 # Target rules for targets named product
@@ -187,6 +174,292 @@ product: cmake_check_build_system
 product/fast:
 	$(MAKE) -f CMakeFiles/product.dir/build.make CMakeFiles/product.dir/build
 .PHONY : product/fast
+
+#=============================================================================
+# Target rules for targets named central_structure_with_lower_panel
+
+# Build rule for target.
+central_structure_with_lower_panel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 central_structure_with_lower_panel
+.PHONY : central_structure_with_lower_panel
+
+# fast build rule for target.
+central_structure_with_lower_panel/fast:
+	$(MAKE) -f CMakeFiles/central_structure_with_lower_panel.dir/build.make CMakeFiles/central_structure_with_lower_panel.dir/build
+.PHONY : central_structure_with_lower_panel/fast
+
+#=============================================================================
+# Target rules for targets named invert_central_structure
+
+# Build rule for target.
+invert_central_structure: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 invert_central_structure
+.PHONY : invert_central_structure
+
+# fast build rule for target.
+invert_central_structure/fast:
+	$(MAKE) -f CMakeFiles/invert_central_structure.dir/build.make CMakeFiles/invert_central_structure.dir/build
+.PHONY : invert_central_structure/fast
+
+#=============================================================================
+# Target rules for targets named adhesive_lower_panel
+
+# Build rule for target.
+adhesive_lower_panel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 adhesive_lower_panel
+.PHONY : adhesive_lower_panel
+
+# fast build rule for target.
+adhesive_lower_panel/fast:
+	$(MAKE) -f CMakeFiles/adhesive_lower_panel.dir/build.make CMakeFiles/adhesive_lower_panel.dir/build
+.PHONY : adhesive_lower_panel/fast
+
+#=============================================================================
+# Target rules for targets named fasten_floor_panel
+
+# Build rule for target.
+fasten_floor_panel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fasten_floor_panel
+.PHONY : fasten_floor_panel
+
+# fast build rule for target.
+fasten_floor_panel/fast:
+	$(MAKE) -f CMakeFiles/fasten_floor_panel.dir/build.make CMakeFiles/fasten_floor_panel.dir/build
+.PHONY : fasten_floor_panel/fast
+
+#=============================================================================
+# Target rules for targets named build_battarey
+
+# Build rule for target.
+build_battarey: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 build_battarey
+.PHONY : build_battarey
+
+# fast build rule for target.
+build_battarey/fast:
+	$(MAKE) -f CMakeFiles/build_battarey.dir/build.make CMakeFiles/build_battarey.dir/build
+.PHONY : build_battarey/fast
+
+#=============================================================================
+# Target rules for targets named central_structure_with_floor_panel
+
+# Build rule for target.
+central_structure_with_floor_panel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 central_structure_with_floor_panel
+.PHONY : central_structure_with_floor_panel
+
+# fast build rule for target.
+central_structure_with_floor_panel/fast:
+	$(MAKE) -f CMakeFiles/central_structure_with_floor_panel.dir/build.make CMakeFiles/central_structure_with_floor_panel.dir/build
+.PHONY : central_structure_with_floor_panel/fast
+
+#=============================================================================
+# Target rules for targets named adhesive_floor_panel
+
+# Build rule for target.
+adhesive_floor_panel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 adhesive_floor_panel
+.PHONY : adhesive_floor_panel
+
+# fast build rule for target.
+adhesive_floor_panel/fast:
+	$(MAKE) -f CMakeFiles/adhesive_floor_panel.dir/build.make CMakeFiles/adhesive_floor_panel.dir/build
+.PHONY : adhesive_floor_panel/fast
+
+#=============================================================================
+# Target rules for targets named central_structure
+
+# Build rule for target.
+central_structure: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 central_structure
+.PHONY : central_structure
+
+# fast build rule for target.
+central_structure/fast:
+	$(MAKE) -f CMakeFiles/central_structure.dir/build.make CMakeFiles/central_structure.dir/build
+.PHONY : central_structure/fast
+
+#=============================================================================
+# Target rules for targets named front_central_structure
+
+# Build rule for target.
+front_central_structure: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 front_central_structure
+.PHONY : front_central_structure
+
+# fast build rule for target.
+front_central_structure/fast:
+	$(MAKE) -f CMakeFiles/front_central_structure.dir/build.make CMakeFiles/front_central_structure.dir/build
+.PHONY : front_central_structure/fast
+
+#=============================================================================
+# Target rules for targets named front_interface_structure
+
+# Build rule for target.
+front_interface_structure: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 front_interface_structure
+.PHONY : front_interface_structure
+
+# fast build rule for target.
+front_interface_structure/fast:
+	$(MAKE) -f CMakeFiles/front_interface_structure.dir/build.make CMakeFiles/front_interface_structure.dir/build
+.PHONY : front_interface_structure/fast
+
+#=============================================================================
+# Target rules for targets named fasten_central_structure_with_lower_panel
+
+# Build rule for target.
+fasten_central_structure_with_lower_panel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fasten_central_structure_with_lower_panel
+.PHONY : fasten_central_structure_with_lower_panel
+
+# fast build rule for target.
+fasten_central_structure_with_lower_panel/fast:
+	$(MAKE) -f CMakeFiles/fasten_central_structure_with_lower_panel.dir/build.make CMakeFiles/fasten_central_structure_with_lower_panel.dir/build
+.PHONY : fasten_central_structure_with_lower_panel/fast
+
+#=============================================================================
+# Target rules for targets named lower_panel
+
+# Build rule for target.
+lower_panel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lower_panel
+.PHONY : lower_panel
+
+# fast build rule for target.
+lower_panel/fast:
+	$(MAKE) -f CMakeFiles/lower_panel.dir/build.make CMakeFiles/lower_panel.dir/build
+.PHONY : lower_panel/fast
+
+#=============================================================================
+# Target rules for targets named bolt
+
+# Build rule for target.
+bolt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bolt
+.PHONY : bolt
+
+# fast build rule for target.
+bolt/fast:
+	$(MAKE) -f CMakeFiles/bolt.dir/build.make CMakeFiles/bolt.dir/build
+.PHONY : bolt/fast
+
+#=============================================================================
+# Target rules for targets named floor_panel
+
+# Build rule for target.
+floor_panel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 floor_panel
+.PHONY : floor_panel
+
+# fast build rule for target.
+floor_panel/fast:
+	$(MAKE) -f CMakeFiles/floor_panel.dir/build.make CMakeFiles/floor_panel.dir/build
+.PHONY : floor_panel/fast
+
+#=============================================================================
+# Target rules for targets named kin.joinparts
+
+# Build rule for target.
+kin.joinparts: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kin.joinparts
+.PHONY : kin.joinparts
+
+# fast build rule for target.
+kin.joinparts/fast:
+	$(MAKE) -f CMakeFiles/kin.joinparts.dir/build.make CMakeFiles/kin.joinparts.dir/build
+.PHONY : kin.joinparts/fast
+
+#=============================================================================
+# Target rules for targets named left_cast
+
+# Build rule for target.
+left_cast: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 left_cast
+.PHONY : left_cast
+
+# fast build rule for target.
+left_cast/fast:
+	$(MAKE) -f CMakeFiles/left_cast.dir/build.make CMakeFiles/left_cast.dir/build
+.PHONY : left_cast/fast
+
+#=============================================================================
+# Target rules for targets named right_cast
+
+# Build rule for target.
+right_cast: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 right_cast
+.PHONY : right_cast
+
+# fast build rule for target.
+right_cast/fast:
+	$(MAKE) -f CMakeFiles/right_cast.dir/build.make CMakeFiles/right_cast.dir/build
+.PHONY : right_cast/fast
+
+#=============================================================================
+# Target rules for targets named cv.camera2
+
+# Build rule for target.
+cv.camera2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cv.camera2
+.PHONY : cv.camera2
+
+# fast build rule for target.
+cv.camera2/fast:
+	$(MAKE) -f CMakeFiles/cv.camera2.dir/build.make CMakeFiles/cv.camera2.dir/build
+.PHONY : cv.camera2/fast
+
+#=============================================================================
+# Target rules for targets named trajectory
+
+# Build rule for target.
+trajectory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory
+.PHONY : trajectory
+
+# fast build rule for target.
+trajectory/fast:
+	$(MAKE) -f CMakeFiles/trajectory.dir/build.make CMakeFiles/trajectory.dir/build
+.PHONY : trajectory/fast
+
+#=============================================================================
+# Target rules for targets named agv.cart_in_warehouse
+
+# Build rule for target.
+agv.cart_in_warehouse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 agv.cart_in_warehouse
+.PHONY : agv.cart_in_warehouse
+
+# fast build rule for target.
+agv.cart_in_warehouse/fast:
+	$(MAKE) -f CMakeFiles/agv.cart_in_warehouse.dir/build.make CMakeFiles/agv.cart_in_warehouse.dir/build
+.PHONY : agv.cart_in_warehouse/fast
+
+#=============================================================================
+# Target rules for targets named agv.cart_in_shipment
+
+# Build rule for target.
+agv.cart_in_shipment: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 agv.cart_in_shipment
+.PHONY : agv.cart_in_shipment
+
+# fast build rule for target.
+agv.cart_in_shipment/fast:
+	$(MAKE) -f CMakeFiles/agv.cart_in_shipment.dir/build.make CMakeFiles/agv.cart_in_shipment.dir/build
+.PHONY : agv.cart_in_shipment/fast
+
+#=============================================================================
+# Target rules for targets named cv.calibration
+
+# Build rule for target.
+cv.calibration: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cv.calibration
+.PHONY : cv.calibration
+
+# fast build rule for target.
+cv.calibration/fast:
+	$(MAKE) -f CMakeFiles/cv.calibration.dir/build.make CMakeFiles/cv.calibration.dir/build
+.PHONY : cv.calibration/fast
 
 #=============================================================================
 # Target rules for targets named kin.robogripper
@@ -215,6 +488,32 @@ kin.manipulator/fast:
 .PHONY : kin.manipulator/fast
 
 #=============================================================================
+# Target rules for targets named extrusion
+
+# Build rule for target.
+extrusion: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 extrusion
+.PHONY : extrusion
+
+# fast build rule for target.
+extrusion/fast:
+	$(MAKE) -f CMakeFiles/extrusion.dir/build.make CMakeFiles/extrusion.dir/build
+.PHONY : extrusion/fast
+
+#=============================================================================
+# Target rules for targets named central_cast
+
+# Build rule for target.
+central_cast: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 central_cast
+.PHONY : central_cast
+
+# fast build rule for target.
+central_cast/fast:
+	$(MAKE) -f CMakeFiles/central_cast.dir/build.make CMakeFiles/central_cast.dir/build
+.PHONY : central_cast/fast
+
+#=============================================================================
 # Target rules for targets named agv.cart_in_cell
 
 # Build rule for target.
@@ -241,19 +540,6 @@ cv.localize/fast:
 .PHONY : cv.localize/fast
 
 #=============================================================================
-# Target rules for targets named cv.calibration
-
-# Build rule for target.
-cv.calibration: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cv.calibration
-.PHONY : cv.calibration
-
-# fast build rule for target.
-cv.calibration/fast:
-	$(MAKE) -f CMakeFiles/cv.calibration.dir/build.make CMakeFiles/cv.calibration.dir/build
-.PHONY : cv.calibration/fast
-
-#=============================================================================
 # Target rules for targets named parts_on_table
 
 # Build rule for target.
@@ -267,17 +553,30 @@ parts_on_table/fast:
 .PHONY : parts_on_table/fast
 
 #=============================================================================
-# Target rules for targets named kin.joinparts
+# Target rules for targets named kin.moveparts
 
 # Build rule for target.
-kin.joinparts: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kin.joinparts
-.PHONY : kin.joinparts
+kin.moveparts: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kin.moveparts
+.PHONY : kin.moveparts
 
 # fast build rule for target.
-kin.joinparts/fast:
-	$(MAKE) -f CMakeFiles/kin.joinparts.dir/build.make CMakeFiles/kin.joinparts.dir/build
-.PHONY : kin.joinparts/fast
+kin.moveparts/fast:
+	$(MAKE) -f CMakeFiles/kin.moveparts.dir/build.make CMakeFiles/kin.moveparts.dir/build
+.PHONY : kin.moveparts/fast
+
+#=============================================================================
+# Target rules for targets named rear_interface_structure
+
+# Build rule for target.
+rear_interface_structure: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rear_interface_structure
+.PHONY : rear_interface_structure
+
+# fast build rule for target.
+rear_interface_structure/fast:
+	$(MAKE) -f CMakeFiles/rear_interface_structure.dir/build.make CMakeFiles/rear_interface_structure.dir/build
+.PHONY : rear_interface_structure/fast
 
 #=============================================================================
 # Target rules for targets named kin.gripper
@@ -306,6 +605,32 @@ cv.camera1/fast:
 .PHONY : cv.camera1/fast
 
 #=============================================================================
+# Target rules for targets named load_parts
+
+# Build rule for target.
+load_parts: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 load_parts
+.PHONY : load_parts
+
+# fast build rule for target.
+load_parts/fast:
+	$(MAKE) -f CMakeFiles/load_parts.dir/build.make CMakeFiles/load_parts.dir/build
+.PHONY : load_parts/fast
+
+#=============================================================================
+# Target rules for targets named glue
+
+# Build rule for target.
+glue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glue
+.PHONY : glue
+
+# fast build rule for target.
+glue/fast:
+	$(MAKE) -f CMakeFiles/glue.dir/build.make CMakeFiles/glue.dir/build
+.PHONY : glue/fast
+
+#=============================================================================
 # Target rules for targets named kin.manipulator_released
 
 # Build rule for target.
@@ -317,58 +642,6 @@ kin.manipulator_released: cmake_check_build_system
 kin.manipulator_released/fast:
 	$(MAKE) -f CMakeFiles/kin.manipulator_released.dir/build.make CMakeFiles/kin.manipulator_released.dir/build
 .PHONY : kin.manipulator_released/fast
-
-#=============================================================================
-# Target rules for targets named build_battarey
-
-# Build rule for target.
-build_battarey: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 build_battarey
-.PHONY : build_battarey
-
-# fast build rule for target.
-build_battarey/fast:
-	$(MAKE) -f CMakeFiles/build_battarey.dir/build.make CMakeFiles/build_battarey.dir/build
-.PHONY : build_battarey/fast
-
-#=============================================================================
-# Target rules for targets named cv.camera2
-
-# Build rule for target.
-cv.camera2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cv.camera2
-.PHONY : cv.camera2
-
-# fast build rule for target.
-cv.camera2/fast:
-	$(MAKE) -f CMakeFiles/cv.camera2.dir/build.make CMakeFiles/cv.camera2.dir/build
-.PHONY : cv.camera2/fast
-
-#=============================================================================
-# Target rules for targets named agv.cart_in_shipment
-
-# Build rule for target.
-agv.cart_in_shipment: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 agv.cart_in_shipment
-.PHONY : agv.cart_in_shipment
-
-# fast build rule for target.
-agv.cart_in_shipment/fast:
-	$(MAKE) -f CMakeFiles/agv.cart_in_shipment.dir/build.make CMakeFiles/agv.cart_in_shipment.dir/build
-.PHONY : agv.cart_in_shipment/fast
-
-#=============================================================================
-# Target rules for targets named agv.cart_in_warehouse
-
-# Build rule for target.
-agv.cart_in_warehouse: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 agv.cart_in_warehouse
-.PHONY : agv.cart_in_warehouse
-
-# fast build rule for target.
-agv.cart_in_warehouse/fast:
-	$(MAKE) -f CMakeFiles/agv.cart_in_warehouse.dir/build.make CMakeFiles/agv.cart_in_warehouse.dir/build
-.PHONY : agv.cart_in_warehouse/fast
 
 #=============================================================================
 # Target rules for targets named cv.camera3
@@ -389,28 +662,49 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ship_chassis"
 	@echo "... build_chassis"
-	@echo "... unload_extr1"
-	@echo "... rebuild_cache"
 	@echo "... unload_extr2"
-	@echo "... load_parts"
+	@echo "... unload_extr1"
 	@echo "... product"
+	@echo "... central_structure_with_lower_panel"
+	@echo "... invert_central_structure"
+	@echo "... adhesive_lower_panel"
+	@echo "... fasten_floor_panel"
+	@echo "... build_battarey"
+	@echo "... central_structure_with_floor_panel"
+	@echo "... adhesive_floor_panel"
+	@echo "... central_structure"
+	@echo "... front_central_structure"
+	@echo "... front_interface_structure"
+	@echo "... fasten_central_structure_with_lower_panel"
+	@echo "... lower_panel"
+	@echo "... bolt"
+	@echo "... floor_panel"
+	@echo "... kin.joinparts"
+	@echo "... left_cast"
+	@echo "... right_cast"
+	@echo "... cv.camera2"
+	@echo "... trajectory"
+	@echo "... agv.cart_in_warehouse"
+	@echo "... agv.cart_in_shipment"
+	@echo "... cv.calibration"
 	@echo "... kin.robogripper"
 	@echo "... kin.manipulator"
+	@echo "... extrusion"
+	@echo "... central_cast"
 	@echo "... agv.cart_in_cell"
 	@echo "... cv.localize"
-	@echo "... cv.calibration"
 	@echo "... parts_on_table"
-	@echo "... kin.joinparts"
+	@echo "... kin.moveparts"
+	@echo "... rear_interface_structure"
 	@echo "... kin.gripper"
 	@echo "... cv.camera1"
+	@echo "... load_parts"
+	@echo "... glue"
 	@echo "... kin.manipulator_released"
-	@echo "... build_battarey"
-	@echo "... cv.camera2"
-	@echo "... agv.cart_in_shipment"
-	@echo "... agv.cart_in_warehouse"
 	@echo "... cv.camera3"
 .PHONY : help
 

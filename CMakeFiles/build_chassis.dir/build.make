@@ -54,7 +54,6 @@ CMAKE_BINARY_DIR = /Users/kristinapultsina/flexbuild
 include CMakeFiles/build_chassis.dir/progress.make
 
 build_chassis: CMakeFiles/build_chassis.dir/build.make
-	echo [KIN.JOIN]\ EXTR1,EXTR2 >>plan
 	echo [EVENT]\ CHASSIS\ IS\ READY >>plan
 .PHONY : build_chassis
 

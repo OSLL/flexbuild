@@ -46,3 +46,9 @@ add_custom_command(TARGET kin.joinparts
 
 #add_dependencies(kin.joinparts kin.manipulator)
 add_dependencies(kin.joinparts kin.manipulator cv.localize)
+
+add_custom_target(kin.moveparts)
+add_custom_command(TARGET kin.moveparts
+        COMMAND echo "[KIN.MOVE] MOVE PARTS" >>plan
+        )
+add_dependencies(kin.moveparts kin.manipulator cv.localize)
