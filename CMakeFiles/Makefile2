@@ -196,6 +196,8 @@ clean: CMakeFiles/unload_extr1.dir/clean
 # All Build rule for target.
 CMakeFiles/product.dir/all: CMakeFiles/ship_chassis.dir/all
 CMakeFiles/product.dir/all: CMakeFiles/build_chassis.dir/all
+CMakeFiles/product.dir/all: CMakeFiles/build_battarey.dir/all
+CMakeFiles/product.dir/all: CMakeFiles/fasten_central_structure_with_lower_panel.dir/all
 	$(MAKE) -f CMakeFiles/product.dir/build.make CMakeFiles/product.dir/depend
 	$(MAKE) -f CMakeFiles/product.dir/build.make CMakeFiles/product.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target product"
@@ -1131,8 +1133,8 @@ clean: CMakeFiles/cv.localize.dir/clean
 # Target rules for target CMakeFiles/parts_on_table.dir
 
 # All Build rule for target.
-CMakeFiles/parts_on_table.dir/all: CMakeFiles/unload_extr2.dir/all
 CMakeFiles/parts_on_table.dir/all: CMakeFiles/unload_extr1.dir/all
+CMakeFiles/parts_on_table.dir/all: CMakeFiles/unload_extr2.dir/all
 	$(MAKE) -f CMakeFiles/parts_on_table.dir/build.make CMakeFiles/parts_on_table.dir/depend
 	$(MAKE) -f CMakeFiles/parts_on_table.dir/build.make CMakeFiles/parts_on_table.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target parts_on_table"
