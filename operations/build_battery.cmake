@@ -2,10 +2,6 @@ cmake_minimum_required(VERSION 3.5)
 
 include(parts/battery_parts.cmake)
 
-
-
-
-
 add_custom_target(front_interface_structure)
 add_dependencies(right_cast central_cast left_cast)
 add_custom_command(TARGET front_interface_structure

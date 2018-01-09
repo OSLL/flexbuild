@@ -53,9 +53,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75503262-2cb4-4e5f-93c0-994c61ecf5c7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/plan" afterPath="$PROJECT_DIR$/plan" />
+      <change beforePath="$PROJECT_DIR$/operations/build_battery.cmake" afterPath="$PROJECT_DIR$/operations/build_battery.cmake" />
     </list>
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,11 +66,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build_battery.cmake" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build_battery.cmake" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/operations/build_battery.cmake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="88" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-675">
@@ -142,8 +140,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/parts/battery_parts.cmake" />
-        <option value="$PROJECT_DIR$/operations/build_battery.cmake" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/operations/build_battery.cmake" />
       </list>
     </option>
   </component>
@@ -407,12 +405,12 @@
       <workItem from="1514546686736" duration="3163000" />
       <workItem from="1514565211590" duration="36000" />
       <workItem from="1514566256753" duration="1223000" />
-      <workItem from="1515485454595" duration="1557000" />
+      <workItem from="1515485454595" duration="1904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6554000" />
+    <option name="totallyTimeSpent" value="6901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="23" width="1400" height="709" extended-state="0" />
@@ -604,14 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/operations/build_battery.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parts/battery_parts.cmake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -632,6 +622,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-675">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operations/build_battery.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
