@@ -1,9 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /Users/kristinapultsina/flexbuild
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /Users/kristinapultsina/Documents/GitHub/lang/cmake
 -- Configuring done
-CMake Error at CMakeLists.txt:62 (add_dependencies):
-  The dependency target "fasten_central_structure" of target "product" does
-  not exist.
-
-
 -- Generating done
--- Build files have been written to: /Users/kristinapultsina/flexbuild
+-- Build files have been written to: /Users/kristinapultsina/Documents/GitHub/lang/cmake

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kristinapultsina/flexbuild
+CMAKE_SOURCE_DIR = /Users/kristinapultsina/Documents/GitHub/lang/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kristinapultsina/flexbuild
+CMAKE_BINARY_DIR = /Users/kristinapultsina/Documents/GitHub/lang/cmake
 
 # Utility rule file for adhesive_floor_panel.
 
@@ -67,6 +67,6 @@ CMakeFiles/adhesive_floor_panel.dir/clean:
 .PHONY : CMakeFiles/adhesive_floor_panel.dir/clean
 
 CMakeFiles/adhesive_floor_panel.dir/depend:
-	cd /Users/kristinapultsina/flexbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kristinapultsina/flexbuild /Users/kristinapultsina/flexbuild /Users/kristinapultsina/flexbuild /Users/kristinapultsina/flexbuild /Users/kristinapultsina/flexbuild/CMakeFiles/adhesive_floor_panel.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kristinapultsina/Documents/GitHub/lang/cmake && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kristinapultsina/Documents/GitHub/lang/cmake /Users/kristinapultsina/Documents/GitHub/lang/cmake /Users/kristinapultsina/Documents/GitHub/lang/cmake /Users/kristinapultsina/Documents/GitHub/lang/cmake /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles/adhesive_floor_panel.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/adhesive_floor_panel.dir/depend
 

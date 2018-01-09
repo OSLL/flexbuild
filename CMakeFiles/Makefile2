@@ -54,10 +54,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kristinapultsina/flexbuild
+CMAKE_SOURCE_DIR = /Users/kristinapultsina/Documents/GitHub/lang/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kristinapultsina/flexbuild
+CMAKE_BINARY_DIR = /Users/kristinapultsina/Documents/GitHub/lang/cmake
 
 #=============================================================================
 # Target rules for target CMakeFiles/ship_chassis.dir
@@ -66,14 +66,14 @@ CMAKE_BINARY_DIR = /Users/kristinapultsina/flexbuild
 CMakeFiles/ship_chassis.dir/all: CMakeFiles/agv.cart_in_shipment.dir/all
 	$(MAKE) -f CMakeFiles/ship_chassis.dir/build.make CMakeFiles/ship_chassis.dir/depend
 	$(MAKE) -f CMakeFiles/ship_chassis.dir/build.make CMakeFiles/ship_chassis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target ship_chassis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target ship_chassis"
 .PHONY : CMakeFiles/ship_chassis.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ship_chassis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ship_chassis.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/ship_chassis.dir/rule
 
 # Convenience name for target.
@@ -99,14 +99,14 @@ CMakeFiles/build_chassis.dir/all: CMakeFiles/kin.joinparts.dir/all
 CMakeFiles/build_chassis.dir/all: CMakeFiles/parts_on_table.dir/all
 	$(MAKE) -f CMakeFiles/build_chassis.dir/build.make CMakeFiles/build_chassis.dir/depend
 	$(MAKE) -f CMakeFiles/build_chassis.dir/build.make CMakeFiles/build_chassis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target build_chassis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target build_chassis"
 .PHONY : CMakeFiles/build_chassis.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/build_chassis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/build_chassis.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/build_chassis.dir/rule
 
 # Convenience name for target.
@@ -132,14 +132,14 @@ CMakeFiles/unload_extr2.dir/all: CMakeFiles/kin.robogripper.dir/all
 CMakeFiles/unload_extr2.dir/all: CMakeFiles/agv.cart_in_cell.dir/all
 	$(MAKE) -f CMakeFiles/unload_extr2.dir/build.make CMakeFiles/unload_extr2.dir/depend
 	$(MAKE) -f CMakeFiles/unload_extr2.dir/build.make CMakeFiles/unload_extr2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target unload_extr2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target unload_extr2"
 .PHONY : CMakeFiles/unload_extr2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unload_extr2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/unload_extr2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/unload_extr2.dir/rule
 
 # Convenience name for target.
@@ -165,14 +165,14 @@ CMakeFiles/unload_extr1.dir/all: CMakeFiles/kin.robogripper.dir/all
 CMakeFiles/unload_extr1.dir/all: CMakeFiles/agv.cart_in_cell.dir/all
 	$(MAKE) -f CMakeFiles/unload_extr1.dir/build.make CMakeFiles/unload_extr1.dir/depend
 	$(MAKE) -f CMakeFiles/unload_extr1.dir/build.make CMakeFiles/unload_extr1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target unload_extr1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target unload_extr1"
 .PHONY : CMakeFiles/unload_extr1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unload_extr1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/unload_extr1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/unload_extr1.dir/rule
 
 # Convenience name for target.
@@ -196,18 +196,17 @@ clean: CMakeFiles/unload_extr1.dir/clean
 # All Build rule for target.
 CMakeFiles/product.dir/all: CMakeFiles/ship_chassis.dir/all
 CMakeFiles/product.dir/all: CMakeFiles/build_chassis.dir/all
-CMakeFiles/product.dir/all: CMakeFiles/build_battarey.dir/all
-CMakeFiles/product.dir/all: CMakeFiles/fasten_central_structure_with_lower_panel.dir/all
+CMakeFiles/product.dir/all: CMakeFiles/battery.dir/all
 	$(MAKE) -f CMakeFiles/product.dir/build.make CMakeFiles/product.dir/depend
 	$(MAKE) -f CMakeFiles/product.dir/build.make CMakeFiles/product.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target product"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target product"
 .PHONY : CMakeFiles/product.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/product.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/product.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/product.dir/rule
 
 # Convenience name for target.
@@ -232,14 +231,14 @@ clean: CMakeFiles/product.dir/clean
 CMakeFiles/central_structure_with_lower_panel.dir/all: CMakeFiles/invert_central_structure.dir/all
 	$(MAKE) -f CMakeFiles/central_structure_with_lower_panel.dir/build.make CMakeFiles/central_structure_with_lower_panel.dir/depend
 	$(MAKE) -f CMakeFiles/central_structure_with_lower_panel.dir/build.make CMakeFiles/central_structure_with_lower_panel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target central_structure_with_lower_panel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target central_structure_with_lower_panel"
 .PHONY : CMakeFiles/central_structure_with_lower_panel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/central_structure_with_lower_panel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/central_structure_with_lower_panel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/central_structure_with_lower_panel.dir/rule
 
 # Convenience name for target.
@@ -264,14 +263,14 @@ clean: CMakeFiles/central_structure_with_lower_panel.dir/clean
 CMakeFiles/invert_central_structure.dir/all:
 	$(MAKE) -f CMakeFiles/invert_central_structure.dir/build.make CMakeFiles/invert_central_structure.dir/depend
 	$(MAKE) -f CMakeFiles/invert_central_structure.dir/build.make CMakeFiles/invert_central_structure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target invert_central_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target invert_central_structure"
 .PHONY : CMakeFiles/invert_central_structure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/invert_central_structure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/invert_central_structure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/invert_central_structure.dir/rule
 
 # Convenience name for target.
@@ -296,14 +295,14 @@ clean: CMakeFiles/invert_central_structure.dir/clean
 CMakeFiles/adhesive_lower_panel.dir/all:
 	$(MAKE) -f CMakeFiles/adhesive_lower_panel.dir/build.make CMakeFiles/adhesive_lower_panel.dir/depend
 	$(MAKE) -f CMakeFiles/adhesive_lower_panel.dir/build.make CMakeFiles/adhesive_lower_panel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target adhesive_lower_panel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target adhesive_lower_panel"
 .PHONY : CMakeFiles/adhesive_lower_panel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/adhesive_lower_panel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/adhesive_lower_panel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/adhesive_lower_panel.dir/rule
 
 # Convenience name for target.
@@ -328,14 +327,14 @@ clean: CMakeFiles/adhesive_lower_panel.dir/clean
 CMakeFiles/fasten_floor_panel.dir/all:
 	$(MAKE) -f CMakeFiles/fasten_floor_panel.dir/build.make CMakeFiles/fasten_floor_panel.dir/depend
 	$(MAKE) -f CMakeFiles/fasten_floor_panel.dir/build.make CMakeFiles/fasten_floor_panel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target fasten_floor_panel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target fasten_floor_panel"
 .PHONY : CMakeFiles/fasten_floor_panel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fasten_floor_panel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fasten_floor_panel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/fasten_floor_panel.dir/rule
 
 # Convenience name for target.
@@ -354,52 +353,20 @@ clean: CMakeFiles/fasten_floor_panel.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/build_battarey.dir
-
-# All Build rule for target.
-CMakeFiles/build_battarey.dir/all:
-	$(MAKE) -f CMakeFiles/build_battarey.dir/build.make CMakeFiles/build_battarey.dir/depend
-	$(MAKE) -f CMakeFiles/build_battarey.dir/build.make CMakeFiles/build_battarey.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target build_battarey"
-.PHONY : CMakeFiles/build_battarey.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/build_battarey.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/build_battarey.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
-.PHONY : CMakeFiles/build_battarey.dir/rule
-
-# Convenience name for target.
-build_battarey: CMakeFiles/build_battarey.dir/rule
-
-.PHONY : build_battarey
-
-# clean rule for target.
-CMakeFiles/build_battarey.dir/clean:
-	$(MAKE) -f CMakeFiles/build_battarey.dir/build.make CMakeFiles/build_battarey.dir/clean
-.PHONY : CMakeFiles/build_battarey.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/build_battarey.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/central_structure_with_floor_panel.dir
 
 # All Build rule for target.
 CMakeFiles/central_structure_with_floor_panel.dir/all: CMakeFiles/trajectory.dir/all
 	$(MAKE) -f CMakeFiles/central_structure_with_floor_panel.dir/build.make CMakeFiles/central_structure_with_floor_panel.dir/depend
 	$(MAKE) -f CMakeFiles/central_structure_with_floor_panel.dir/build.make CMakeFiles/central_structure_with_floor_panel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target central_structure_with_floor_panel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target central_structure_with_floor_panel"
 .PHONY : CMakeFiles/central_structure_with_floor_panel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/central_structure_with_floor_panel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/central_structure_with_floor_panel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/central_structure_with_floor_panel.dir/rule
 
 # Convenience name for target.
@@ -424,14 +391,14 @@ clean: CMakeFiles/central_structure_with_floor_panel.dir/clean
 CMakeFiles/adhesive_floor_panel.dir/all:
 	$(MAKE) -f CMakeFiles/adhesive_floor_panel.dir/build.make CMakeFiles/adhesive_floor_panel.dir/depend
 	$(MAKE) -f CMakeFiles/adhesive_floor_panel.dir/build.make CMakeFiles/adhesive_floor_panel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target adhesive_floor_panel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target adhesive_floor_panel"
 .PHONY : CMakeFiles/adhesive_floor_panel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/adhesive_floor_panel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/adhesive_floor_panel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/adhesive_floor_panel.dir/rule
 
 # Convenience name for target.
@@ -456,14 +423,14 @@ clean: CMakeFiles/adhesive_floor_panel.dir/clean
 CMakeFiles/central_structure.dir/all: CMakeFiles/adhesive_floor_panel.dir/all
 	$(MAKE) -f CMakeFiles/central_structure.dir/build.make CMakeFiles/central_structure.dir/depend
 	$(MAKE) -f CMakeFiles/central_structure.dir/build.make CMakeFiles/central_structure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target central_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target central_structure"
 .PHONY : CMakeFiles/central_structure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/central_structure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/central_structure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/central_structure.dir/rule
 
 # Convenience name for target.
@@ -488,14 +455,14 @@ clean: CMakeFiles/central_structure.dir/clean
 CMakeFiles/front_central_structure.dir/all: CMakeFiles/rear_interface_structure.dir/all
 	$(MAKE) -f CMakeFiles/front_central_structure.dir/build.make CMakeFiles/front_central_structure.dir/depend
 	$(MAKE) -f CMakeFiles/front_central_structure.dir/build.make CMakeFiles/front_central_structure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target front_central_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target front_central_structure"
 .PHONY : CMakeFiles/front_central_structure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/front_central_structure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/front_central_structure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/front_central_structure.dir/rule
 
 # Convenience name for target.
@@ -520,14 +487,14 @@ clean: CMakeFiles/front_central_structure.dir/clean
 CMakeFiles/front_interface_structure.dir/all: CMakeFiles/extrusion.dir/all
 	$(MAKE) -f CMakeFiles/front_interface_structure.dir/build.make CMakeFiles/front_interface_structure.dir/depend
 	$(MAKE) -f CMakeFiles/front_interface_structure.dir/build.make CMakeFiles/front_interface_structure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target front_interface_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target front_interface_structure"
 .PHONY : CMakeFiles/front_interface_structure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/front_interface_structure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/front_interface_structure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/front_interface_structure.dir/rule
 
 # Convenience name for target.
@@ -552,14 +519,14 @@ clean: CMakeFiles/front_interface_structure.dir/clean
 CMakeFiles/fasten_central_structure_with_lower_panel.dir/all:
 	$(MAKE) -f CMakeFiles/fasten_central_structure_with_lower_panel.dir/build.make CMakeFiles/fasten_central_structure_with_lower_panel.dir/depend
 	$(MAKE) -f CMakeFiles/fasten_central_structure_with_lower_panel.dir/build.make CMakeFiles/fasten_central_structure_with_lower_panel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target fasten_central_structure_with_lower_panel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target fasten_central_structure_with_lower_panel"
 .PHONY : CMakeFiles/fasten_central_structure_with_lower_panel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fasten_central_structure_with_lower_panel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fasten_central_structure_with_lower_panel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/fasten_central_structure_with_lower_panel.dir/rule
 
 # Convenience name for target.
@@ -584,14 +551,14 @@ clean: CMakeFiles/fasten_central_structure_with_lower_panel.dir/clean
 CMakeFiles/lower_panel.dir/all:
 	$(MAKE) -f CMakeFiles/lower_panel.dir/build.make CMakeFiles/lower_panel.dir/depend
 	$(MAKE) -f CMakeFiles/lower_panel.dir/build.make CMakeFiles/lower_panel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target lower_panel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target lower_panel"
 .PHONY : CMakeFiles/lower_panel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lower_panel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lower_panel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/lower_panel.dir/rule
 
 # Convenience name for target.
@@ -617,14 +584,14 @@ CMakeFiles/bolt.dir/all: CMakeFiles/central_structure_with_lower_panel.dir/all
 CMakeFiles/bolt.dir/all: CMakeFiles/central_structure_with_floor_panel.dir/all
 	$(MAKE) -f CMakeFiles/bolt.dir/build.make CMakeFiles/bolt.dir/depend
 	$(MAKE) -f CMakeFiles/bolt.dir/build.make CMakeFiles/bolt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target bolt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target bolt"
 .PHONY : CMakeFiles/bolt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bolt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bolt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/bolt.dir/rule
 
 # Convenience name for target.
@@ -649,14 +616,14 @@ clean: CMakeFiles/bolt.dir/clean
 CMakeFiles/floor_panel.dir/all:
 	$(MAKE) -f CMakeFiles/floor_panel.dir/build.make CMakeFiles/floor_panel.dir/depend
 	$(MAKE) -f CMakeFiles/floor_panel.dir/build.make CMakeFiles/floor_panel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target floor_panel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target floor_panel"
 .PHONY : CMakeFiles/floor_panel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/floor_panel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/floor_panel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/floor_panel.dir/rule
 
 # Convenience name for target.
@@ -683,14 +650,14 @@ CMakeFiles/kin.joinparts.dir/all: CMakeFiles/cv.localize.dir/all
 CMakeFiles/kin.joinparts.dir/all: CMakeFiles/kin.manipulator_released.dir/all
 	$(MAKE) -f CMakeFiles/kin.joinparts.dir/build.make CMakeFiles/kin.joinparts.dir/depend
 	$(MAKE) -f CMakeFiles/kin.joinparts.dir/build.make CMakeFiles/kin.joinparts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target kin.joinparts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target kin.joinparts"
 .PHONY : CMakeFiles/kin.joinparts.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kin.joinparts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kin.joinparts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/kin.joinparts.dir/rule
 
 # Convenience name for target.
@@ -715,14 +682,14 @@ clean: CMakeFiles/kin.joinparts.dir/clean
 CMakeFiles/left_cast.dir/all:
 	$(MAKE) -f CMakeFiles/left_cast.dir/build.make CMakeFiles/left_cast.dir/depend
 	$(MAKE) -f CMakeFiles/left_cast.dir/build.make CMakeFiles/left_cast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target left_cast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target left_cast"
 .PHONY : CMakeFiles/left_cast.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/left_cast.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/left_cast.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/left_cast.dir/rule
 
 # Convenience name for target.
@@ -741,6 +708,38 @@ clean: CMakeFiles/left_cast.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/battery.dir
+
+# All Build rule for target.
+CMakeFiles/battery.dir/all: CMakeFiles/fasten_central_structure_with_lower_panel.dir/all
+	$(MAKE) -f CMakeFiles/battery.dir/build.make CMakeFiles/battery.dir/depend
+	$(MAKE) -f CMakeFiles/battery.dir/build.make CMakeFiles/battery.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target battery"
+.PHONY : CMakeFiles/battery.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/battery.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/battery.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
+.PHONY : CMakeFiles/battery.dir/rule
+
+# Convenience name for target.
+battery: CMakeFiles/battery.dir/rule
+
+.PHONY : battery
+
+# clean rule for target.
+CMakeFiles/battery.dir/clean:
+	$(MAKE) -f CMakeFiles/battery.dir/build.make CMakeFiles/battery.dir/clean
+.PHONY : CMakeFiles/battery.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/battery.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/right_cast.dir
 
 # All Build rule for target.
@@ -748,14 +747,14 @@ CMakeFiles/right_cast.dir/all: CMakeFiles/left_cast.dir/all
 CMakeFiles/right_cast.dir/all: CMakeFiles/central_cast.dir/all
 	$(MAKE) -f CMakeFiles/right_cast.dir/build.make CMakeFiles/right_cast.dir/depend
 	$(MAKE) -f CMakeFiles/right_cast.dir/build.make CMakeFiles/right_cast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target right_cast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target right_cast"
 .PHONY : CMakeFiles/right_cast.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/right_cast.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/right_cast.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/right_cast.dir/rule
 
 # Convenience name for target.
@@ -780,14 +779,14 @@ clean: CMakeFiles/right_cast.dir/clean
 CMakeFiles/cv.camera2.dir/all:
 	$(MAKE) -f CMakeFiles/cv.camera2.dir/build.make CMakeFiles/cv.camera2.dir/depend
 	$(MAKE) -f CMakeFiles/cv.camera2.dir/build.make CMakeFiles/cv.camera2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target cv.camera2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target cv.camera2"
 .PHONY : CMakeFiles/cv.camera2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cv.camera2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cv.camera2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/cv.camera2.dir/rule
 
 # Convenience name for target.
@@ -812,14 +811,14 @@ clean: CMakeFiles/cv.camera2.dir/clean
 CMakeFiles/trajectory.dir/all:
 	$(MAKE) -f CMakeFiles/trajectory.dir/build.make CMakeFiles/trajectory.dir/depend
 	$(MAKE) -f CMakeFiles/trajectory.dir/build.make CMakeFiles/trajectory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target trajectory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target trajectory"
 .PHONY : CMakeFiles/trajectory.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/trajectory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/trajectory.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/trajectory.dir/rule
 
 # Convenience name for target.
@@ -844,14 +843,14 @@ clean: CMakeFiles/trajectory.dir/clean
 CMakeFiles/agv.cart_in_warehouse.dir/all:
 	$(MAKE) -f CMakeFiles/agv.cart_in_warehouse.dir/build.make CMakeFiles/agv.cart_in_warehouse.dir/depend
 	$(MAKE) -f CMakeFiles/agv.cart_in_warehouse.dir/build.make CMakeFiles/agv.cart_in_warehouse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target agv.cart_in_warehouse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target agv.cart_in_warehouse"
 .PHONY : CMakeFiles/agv.cart_in_warehouse.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/agv.cart_in_warehouse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/agv.cart_in_warehouse.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/agv.cart_in_warehouse.dir/rule
 
 # Convenience name for target.
@@ -876,14 +875,14 @@ clean: CMakeFiles/agv.cart_in_warehouse.dir/clean
 CMakeFiles/agv.cart_in_shipment.dir/all: CMakeFiles/build_chassis.dir/all
 	$(MAKE) -f CMakeFiles/agv.cart_in_shipment.dir/build.make CMakeFiles/agv.cart_in_shipment.dir/depend
 	$(MAKE) -f CMakeFiles/agv.cart_in_shipment.dir/build.make CMakeFiles/agv.cart_in_shipment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target agv.cart_in_shipment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target agv.cart_in_shipment"
 .PHONY : CMakeFiles/agv.cart_in_shipment.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/agv.cart_in_shipment.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/agv.cart_in_shipment.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/agv.cart_in_shipment.dir/rule
 
 # Convenience name for target.
@@ -908,14 +907,14 @@ clean: CMakeFiles/agv.cart_in_shipment.dir/clean
 CMakeFiles/cv.calibration.dir/all:
 	$(MAKE) -f CMakeFiles/cv.calibration.dir/build.make CMakeFiles/cv.calibration.dir/depend
 	$(MAKE) -f CMakeFiles/cv.calibration.dir/build.make CMakeFiles/cv.calibration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target cv.calibration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target cv.calibration"
 .PHONY : CMakeFiles/cv.calibration.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cv.calibration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cv.calibration.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/cv.calibration.dir/rule
 
 # Convenience name for target.
@@ -941,14 +940,14 @@ CMakeFiles/kin.robogripper.dir/all: CMakeFiles/kin.manipulator.dir/all
 CMakeFiles/kin.robogripper.dir/all: CMakeFiles/kin.gripper.dir/all
 	$(MAKE) -f CMakeFiles/kin.robogripper.dir/build.make CMakeFiles/kin.robogripper.dir/depend
 	$(MAKE) -f CMakeFiles/kin.robogripper.dir/build.make CMakeFiles/kin.robogripper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target kin.robogripper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target kin.robogripper"
 .PHONY : CMakeFiles/kin.robogripper.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kin.robogripper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kin.robogripper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/kin.robogripper.dir/rule
 
 # Convenience name for target.
@@ -973,14 +972,14 @@ clean: CMakeFiles/kin.robogripper.dir/clean
 CMakeFiles/kin.manipulator.dir/all:
 	$(MAKE) -f CMakeFiles/kin.manipulator.dir/build.make CMakeFiles/kin.manipulator.dir/depend
 	$(MAKE) -f CMakeFiles/kin.manipulator.dir/build.make CMakeFiles/kin.manipulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target kin.manipulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target kin.manipulator"
 .PHONY : CMakeFiles/kin.manipulator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kin.manipulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kin.manipulator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/kin.manipulator.dir/rule
 
 # Convenience name for target.
@@ -1005,14 +1004,14 @@ clean: CMakeFiles/kin.manipulator.dir/clean
 CMakeFiles/extrusion.dir/all:
 	$(MAKE) -f CMakeFiles/extrusion.dir/build.make CMakeFiles/extrusion.dir/depend
 	$(MAKE) -f CMakeFiles/extrusion.dir/build.make CMakeFiles/extrusion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target extrusion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target extrusion"
 .PHONY : CMakeFiles/extrusion.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/extrusion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/extrusion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/extrusion.dir/rule
 
 # Convenience name for target.
@@ -1037,14 +1036,14 @@ clean: CMakeFiles/extrusion.dir/clean
 CMakeFiles/central_cast.dir/all:
 	$(MAKE) -f CMakeFiles/central_cast.dir/build.make CMakeFiles/central_cast.dir/depend
 	$(MAKE) -f CMakeFiles/central_cast.dir/build.make CMakeFiles/central_cast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target central_cast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target central_cast"
 .PHONY : CMakeFiles/central_cast.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/central_cast.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/central_cast.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/central_cast.dir/rule
 
 # Convenience name for target.
@@ -1069,14 +1068,14 @@ clean: CMakeFiles/central_cast.dir/clean
 CMakeFiles/agv.cart_in_cell.dir/all: CMakeFiles/load_parts.dir/all
 	$(MAKE) -f CMakeFiles/agv.cart_in_cell.dir/build.make CMakeFiles/agv.cart_in_cell.dir/depend
 	$(MAKE) -f CMakeFiles/agv.cart_in_cell.dir/build.make CMakeFiles/agv.cart_in_cell.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target agv.cart_in_cell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target agv.cart_in_cell"
 .PHONY : CMakeFiles/agv.cart_in_cell.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/agv.cart_in_cell.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/agv.cart_in_cell.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/agv.cart_in_cell.dir/rule
 
 # Convenience name for target.
@@ -1104,14 +1103,14 @@ CMakeFiles/cv.localize.dir/all: CMakeFiles/cv.camera1.dir/all
 CMakeFiles/cv.localize.dir/all: CMakeFiles/cv.camera3.dir/all
 	$(MAKE) -f CMakeFiles/cv.localize.dir/build.make CMakeFiles/cv.localize.dir/depend
 	$(MAKE) -f CMakeFiles/cv.localize.dir/build.make CMakeFiles/cv.localize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target cv.localize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target cv.localize"
 .PHONY : CMakeFiles/cv.localize.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cv.localize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cv.localize.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/cv.localize.dir/rule
 
 # Convenience name for target.
@@ -1133,18 +1132,18 @@ clean: CMakeFiles/cv.localize.dir/clean
 # Target rules for target CMakeFiles/parts_on_table.dir
 
 # All Build rule for target.
-CMakeFiles/parts_on_table.dir/all: CMakeFiles/unload_extr1.dir/all
 CMakeFiles/parts_on_table.dir/all: CMakeFiles/unload_extr2.dir/all
+CMakeFiles/parts_on_table.dir/all: CMakeFiles/unload_extr1.dir/all
 	$(MAKE) -f CMakeFiles/parts_on_table.dir/build.make CMakeFiles/parts_on_table.dir/depend
 	$(MAKE) -f CMakeFiles/parts_on_table.dir/build.make CMakeFiles/parts_on_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target parts_on_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target parts_on_table"
 .PHONY : CMakeFiles/parts_on_table.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/parts_on_table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/parts_on_table.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/parts_on_table.dir/rule
 
 # Convenience name for target.
@@ -1170,14 +1169,14 @@ CMakeFiles/kin.moveparts.dir/all: CMakeFiles/kin.manipulator.dir/all
 CMakeFiles/kin.moveparts.dir/all: CMakeFiles/cv.localize.dir/all
 	$(MAKE) -f CMakeFiles/kin.moveparts.dir/build.make CMakeFiles/kin.moveparts.dir/depend
 	$(MAKE) -f CMakeFiles/kin.moveparts.dir/build.make CMakeFiles/kin.moveparts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target kin.moveparts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target kin.moveparts"
 .PHONY : CMakeFiles/kin.moveparts.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kin.moveparts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kin.moveparts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/kin.moveparts.dir/rule
 
 # Convenience name for target.
@@ -1202,14 +1201,14 @@ clean: CMakeFiles/kin.moveparts.dir/clean
 CMakeFiles/rear_interface_structure.dir/all:
 	$(MAKE) -f CMakeFiles/rear_interface_structure.dir/build.make CMakeFiles/rear_interface_structure.dir/depend
 	$(MAKE) -f CMakeFiles/rear_interface_structure.dir/build.make CMakeFiles/rear_interface_structure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target rear_interface_structure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target rear_interface_structure"
 .PHONY : CMakeFiles/rear_interface_structure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rear_interface_structure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rear_interface_structure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/rear_interface_structure.dir/rule
 
 # Convenience name for target.
@@ -1234,14 +1233,14 @@ clean: CMakeFiles/rear_interface_structure.dir/clean
 CMakeFiles/kin.gripper.dir/all:
 	$(MAKE) -f CMakeFiles/kin.gripper.dir/build.make CMakeFiles/kin.gripper.dir/depend
 	$(MAKE) -f CMakeFiles/kin.gripper.dir/build.make CMakeFiles/kin.gripper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target kin.gripper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target kin.gripper"
 .PHONY : CMakeFiles/kin.gripper.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kin.gripper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kin.gripper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/kin.gripper.dir/rule
 
 # Convenience name for target.
@@ -1266,14 +1265,14 @@ clean: CMakeFiles/kin.gripper.dir/clean
 CMakeFiles/cv.camera1.dir/all:
 	$(MAKE) -f CMakeFiles/cv.camera1.dir/build.make CMakeFiles/cv.camera1.dir/depend
 	$(MAKE) -f CMakeFiles/cv.camera1.dir/build.make CMakeFiles/cv.camera1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target cv.camera1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target cv.camera1"
 .PHONY : CMakeFiles/cv.camera1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cv.camera1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cv.camera1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/cv.camera1.dir/rule
 
 # Convenience name for target.
@@ -1298,14 +1297,14 @@ clean: CMakeFiles/cv.camera1.dir/clean
 CMakeFiles/load_parts.dir/all: CMakeFiles/agv.cart_in_warehouse.dir/all
 	$(MAKE) -f CMakeFiles/load_parts.dir/build.make CMakeFiles/load_parts.dir/depend
 	$(MAKE) -f CMakeFiles/load_parts.dir/build.make CMakeFiles/load_parts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target load_parts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target load_parts"
 .PHONY : CMakeFiles/load_parts.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/load_parts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/load_parts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/load_parts.dir/rule
 
 # Convenience name for target.
@@ -1331,14 +1330,14 @@ CMakeFiles/glue.dir/all: CMakeFiles/lower_panel.dir/all
 CMakeFiles/glue.dir/all: CMakeFiles/floor_panel.dir/all
 	$(MAKE) -f CMakeFiles/glue.dir/build.make CMakeFiles/glue.dir/depend
 	$(MAKE) -f CMakeFiles/glue.dir/build.make CMakeFiles/glue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target glue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target glue"
 .PHONY : CMakeFiles/glue.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/glue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/glue.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/glue.dir/rule
 
 # Convenience name for target.
@@ -1363,14 +1362,14 @@ clean: CMakeFiles/glue.dir/clean
 CMakeFiles/kin.manipulator_released.dir/all: CMakeFiles/parts_on_table.dir/all
 	$(MAKE) -f CMakeFiles/kin.manipulator_released.dir/build.make CMakeFiles/kin.manipulator_released.dir/depend
 	$(MAKE) -f CMakeFiles/kin.manipulator_released.dir/build.make CMakeFiles/kin.manipulator_released.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target kin.manipulator_released"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target kin.manipulator_released"
 .PHONY : CMakeFiles/kin.manipulator_released.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kin.manipulator_released.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kin.manipulator_released.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/kin.manipulator_released.dir/rule
 
 # Convenience name for target.
@@ -1395,14 +1394,14 @@ clean: CMakeFiles/kin.manipulator_released.dir/clean
 CMakeFiles/cv.camera3.dir/all:
 	$(MAKE) -f CMakeFiles/cv.camera3.dir/build.make CMakeFiles/cv.camera3.dir/depend
 	$(MAKE) -f CMakeFiles/cv.camera3.dir/build.make CMakeFiles/cv.camera3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/flexbuild/CMakeFiles --progress-num= "Built target cv.camera3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles --progress-num= "Built target cv.camera3"
 .PHONY : CMakeFiles/cv.camera3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cv.camera3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cv.camera3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : CMakeFiles/cv.camera3.dir/rule
 
 # Convenience name for target.

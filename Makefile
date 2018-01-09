@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kristinapultsina/flexbuild
+CMAKE_SOURCE_DIR = /Users/kristinapultsina/Documents/GitHub/lang/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kristinapultsina/flexbuild
+CMAKE_BINARY_DIR = /Users/kristinapultsina/Documents/GitHub/lang/cmake
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles /Users/kristinapultsina/flexbuild/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/flexbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -228,19 +228,6 @@ fasten_floor_panel/fast:
 .PHONY : fasten_floor_panel/fast
 
 #=============================================================================
-# Target rules for targets named build_battarey
-
-# Build rule for target.
-build_battarey: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 build_battarey
-.PHONY : build_battarey
-
-# fast build rule for target.
-build_battarey/fast:
-	$(MAKE) -f CMakeFiles/build_battarey.dir/build.make CMakeFiles/build_battarey.dir/build
-.PHONY : build_battarey/fast
-
-#=============================================================================
 # Target rules for targets named central_structure_with_floor_panel
 
 # Build rule for target.
@@ -382,6 +369,19 @@ left_cast: cmake_check_build_system
 left_cast/fast:
 	$(MAKE) -f CMakeFiles/left_cast.dir/build.make CMakeFiles/left_cast.dir/build
 .PHONY : left_cast/fast
+
+#=============================================================================
+# Target rules for targets named battery
+
+# Build rule for target.
+battery: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 battery
+.PHONY : battery
+
+# fast build rule for target.
+battery/fast:
+	$(MAKE) -f CMakeFiles/battery.dir/build.make CMakeFiles/battery.dir/build
+.PHONY : battery/fast
 
 #=============================================================================
 # Target rules for targets named right_cast
@@ -673,7 +673,6 @@ help:
 	@echo "... invert_central_structure"
 	@echo "... adhesive_lower_panel"
 	@echo "... fasten_floor_panel"
-	@echo "... build_battarey"
 	@echo "... central_structure_with_floor_panel"
 	@echo "... adhesive_floor_panel"
 	@echo "... central_structure"
@@ -685,6 +684,7 @@ help:
 	@echo "... floor_panel"
 	@echo "... kin.joinparts"
 	@echo "... left_cast"
+	@echo "... battery"
 	@echo "... right_cast"
 	@echo "... cv.camera2"
 	@echo "... trajectory"

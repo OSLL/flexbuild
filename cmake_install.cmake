@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kristinapultsina/flexbuild
+# Install script for directory: /Users/kristinapultsina/Documents/GitHub/lang/cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/kristinapultsina/flexbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kristinapultsina/Documents/GitHub/lang/cmake/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

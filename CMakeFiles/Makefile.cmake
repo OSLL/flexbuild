@@ -37,7 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "abilities/agv.cmake"
   "abilities/cv.cmake"
   "abilities/kinematics.cmake"
-  "operations/build_battery.cmake"
+  "operations/battery.cmake"
   "parts/battery_parts.cmake"
   )
 
@@ -63,7 +63,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/invert_central_structure.dir/DependInfo.cmake"
   "CMakeFiles/adhesive_lower_panel.dir/DependInfo.cmake"
   "CMakeFiles/fasten_floor_panel.dir/DependInfo.cmake"
-  "CMakeFiles/build_battarey.dir/DependInfo.cmake"
   "CMakeFiles/central_structure_with_floor_panel.dir/DependInfo.cmake"
   "CMakeFiles/adhesive_floor_panel.dir/DependInfo.cmake"
   "CMakeFiles/central_structure.dir/DependInfo.cmake"
@@ -75,6 +74,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/floor_panel.dir/DependInfo.cmake"
   "CMakeFiles/kin.joinparts.dir/DependInfo.cmake"
   "CMakeFiles/left_cast.dir/DependInfo.cmake"
+  "CMakeFiles/battery.dir/DependInfo.cmake"
   "CMakeFiles/right_cast.dir/DependInfo.cmake"
   "CMakeFiles/cv.camera2.dir/DependInfo.cmake"
   "CMakeFiles/trajectory.dir/DependInfo.cmake"

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kristinapultsina/flexbuild
+CMAKE_SOURCE_DIR = /Users/kristinapultsina/Documents/GitHub/lang/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kristinapultsina/flexbuild
+CMAKE_BINARY_DIR = /Users/kristinapultsina/Documents/GitHub/lang/cmake
 
 # Utility rule file for build_chassis.
 
@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /Users/kristinapultsina/flexbuild
 include CMakeFiles/build_chassis.dir/progress.make
 
 build_chassis: CMakeFiles/build_chassis.dir/build.make
+	echo [JOIN]\ EXTR1,EXTR2 >>plan
 	echo [EVENT]\ CHASSIS\ IS\ READY >>plan
 .PHONY : build_chassis
 
@@ -67,6 +68,6 @@ CMakeFiles/build_chassis.dir/clean:
 .PHONY : CMakeFiles/build_chassis.dir/clean
 
 CMakeFiles/build_chassis.dir/depend:
-	cd /Users/kristinapultsina/flexbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kristinapultsina/flexbuild /Users/kristinapultsina/flexbuild /Users/kristinapultsina/flexbuild /Users/kristinapultsina/flexbuild /Users/kristinapultsina/flexbuild/CMakeFiles/build_chassis.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kristinapultsina/Documents/GitHub/lang/cmake && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kristinapultsina/Documents/GitHub/lang/cmake /Users/kristinapultsina/Documents/GitHub/lang/cmake /Users/kristinapultsina/Documents/GitHub/lang/cmake /Users/kristinapultsina/Documents/GitHub/lang/cmake /Users/kristinapultsina/Documents/GitHub/lang/cmake/CMakeFiles/build_chassis.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/build_chassis.dir/depend
 
